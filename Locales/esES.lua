@@ -367,7 +367,7 @@ L["use"] = "usar"
 L["rare"] = "raro"
 L["you"] = "tú"
 L["None"] = "Ninguno"
-L["%d/%d complete"] = "%d/%d completadas"
+L["%d/%d complete"] = "%d/%d hechas"
 L["1 quest  ·  %d complete"] = "1 misión  ·  %d completadas"
 L["%d quests  ·  %d complete"] = "%d misiones  ·  %d completadas"
 
