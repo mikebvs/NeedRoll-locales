@@ -367,7 +367,7 @@ L["use"] = "исп."
 L["rare"] = "редкий"
 L["you"] = "вы"
 L["None"] = "Нет"
-L["%d/%d complete"] = "Выполнено: %d/%d"
+L["%d/%d complete"] = "%d/%d готово"
 L["1 quest  ·  %d complete"] = "1 задание  ·  выполнено: %d"
 L["%d quests  ·  %d complete"] = "Заданий: %d  ·  выполнено: %d"
 
