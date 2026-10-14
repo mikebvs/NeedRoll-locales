@@ -1,0 +1,72 @@
+# Posts new issues, new pull requests and merged pull requests to the
+# NeedRoll Discord, in the channel for their language: an issue's Language
+# answer, or the Locales/<lang>.lua file a pull request changes. Anything
+# else (several languages, the README, no answer) goes to the general
+# localization channel.
+#
+# Needs the DISCORD_WEBHOOKS secret: one line per channel, code=webhook URL:
+#   general=https://discord.com/api/webhooks/...
+#   enUS=https://discord.com/api/webhooks/...
+#   deDE=https://discord.com/api/webhooks/...
+# A language with no line goes to general; nothing is posted without it.
+#
+# pull_request_target lets pull requests from forks reach the secret. This
+# job never checks out or runs their code; it only reads the event and the
+# list of changed files.
+name: Discord
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened, closed]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  post:
+    if: github.event_name == 'issues' || github.event.action == 'opened' || github.event.pull_request.merged
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Post
+        env:
+          WEBHOOKS: ${{ secrets.DISCORD_WEBHOOKS }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$WEBHOOKS" ]; then
+            echo "::warning::Add the DISCORD_WEBHOOKS secret to post to Discord."
+            exit 0
+          fi
+          event="$GITHUB_EVENT_PATH"
+          if [ "$GITHUB_EVENT_NAME" = issues ]; then
+            kind="New issue"
+            item=$(jq '.issue' "$event")
+            # The issue form's Language answer, e.g. "German (deDE)".
+            locales=$(jq -r '.body // ""' <<<"$item" | grep -o '([a-z][a-z][A-Z][A-Z])' | head -n1 | tr -d '()')
+          else
+            item=$(jq '.pull_request' "$event")
+            if [ "$(jq -r '.merged' <<<"$item")" = true ]; then kind="Merged"; else kind="New pull request"; fi
+            locales=$(gh api "repos/$GITHUB_REPOSITORY/pulls/$(jq -r '.number' <<<"$item")/files" --paginate \
+              --jq '.[].filename' | sed -n 's#^Locales/\([a-z][a-z][A-Z][A-Z]\)\.lua$#\1#p' | sort -u)
+          fi
+          locale=general
+          if [ "$(wc -w <<<"$locales")" = 1 ]; then locale=$locales; fi
+          url=$(sed -n "s#^$locale=\(https://\S*\)\s*\$#\1#p" <<<"$WEBHOOKS" | head -n1)
+          [ -n "$url" ] || url=$(sed -n 's#^general=\(https://\S*\)\s*$#\1#p' <<<"$WEBHOOKS" | head -n1)
+          if [ -z "$url" ]; then
+            echo "::warning::DISCORD_WEBHOOKS has no line for $locale or general."
+            exit 0
+          fi
+          jq -n --arg kind "$kind" --argjson item "$item" '{
+            username: "NeedRoll translations",
+            allowed_mentions: {parse: []},
+            embeds: [{
+              title: ("\($kind) #\($item.number): \($item.title)" | .[0:250]),
+              url: $item.html_url,
+              description: (($item.body // "") | .[0:500]),
+              author: {name: $item.user.login, url: $item.user.html_url}
+            }]
+          }' | curl -sS -f -H "Content-Type: application/json" -d @- "$url"

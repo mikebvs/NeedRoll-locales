@@ -1,6 +1,6 @@
 name: Translation problem
 description: A wrong, missing or cut-off phrase in your language.
-title: "[xxXX] "
+title: "Translation: "
 labels: ["translation"]
 body:
   - type: dropdown
@@ -8,9 +8,10 @@ body:
     attributes:
       label: Language
       options:
+        - English (enUS)
         - German (deDE)
         - Spanish, Spain (esES)
-        - Spanish, Mexico (esMX)
+        - Spanish, Latin America (esMX)
         - French (frFR)
         - Italian (itIT)
         - Korean (koKR)

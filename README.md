@@ -14,7 +14,7 @@ on the NeedRoll Discord and post the fix there.
 | --- | --- |
 | German | [Locales/deDE.lua](Locales/deDE.lua) |
 | Spanish (Spain) | [Locales/esES.lua](Locales/esES.lua) |
-| Spanish (Mexico) | [Locales/esMX.lua](Locales/esMX.lua) |
+| Spanish (Latin America) | [Locales/esMX.lua](Locales/esMX.lua) |
 | French | [Locales/frFR.lua](Locales/frFR.lua) |
 | Italian | [Locales/itIT.lua](Locales/itIT.lua) |
 | Korean | [Locales/koKR.lua](Locales/koKR.lua) |
