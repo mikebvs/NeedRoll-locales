@@ -6,7 +6,7 @@ fix or add phrases in their language. Merged translations ship with the next
 NeedRoll release.
 
 Questions, or not comfortable with GitHub? Come to the localization channels
-on the NeedRoll Discord and post the fix there.
+on the [NeedRoll Discord](https://discord.gg/UhkFth8vsr) and post the fix there.
 
 ## Languages
 
@@ -59,7 +59,7 @@ already in your language and don't need translating here.
 ## Reporting a problem
 
 Wrong, missing or cut-off text in your language: open an issue with the
-"Translation problem" form, or post it in the Discord's localization
+"Translation problem" form, or post it in the [Discord](https://discord.gg/UhkFth8vsr)'s localization
 channels.
 
 ## License

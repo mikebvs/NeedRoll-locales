@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: NeedRoll Discord (localization channels)
+    url: https://discord.gg/UhkFth8vsr
+    about: Quick questions about a translation, or to talk with other translators.
