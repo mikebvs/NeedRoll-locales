@@ -637,6 +637,11 @@ L["Also in the game's Key Bindings, under AddOns."] = true
 L["Also: /nr style  ·  /nr text  ·  /nr minimap"] = true
 L["Modules"] = true
 L["Each module is a tab. One turned off is hidden and not loaded."] = true
+L["NeedRoll on Discord"] = true
+L["Report a bug or a translation mistake, or suggest a feature. Press Ctrl+C to copy the invite, then paste it in your browser."] = true
+L["Copied. Paste it in your browser."] = true
+L["Done"] = true
+L["Report bugs and translation mistakes, or suggest a feature."] = true
 L["Saved for every character on this account."] = true
 L["Needs %s"] = true
 L["One module always stays on"] = true
@@ -668,6 +673,9 @@ L["%s  ·  %s to buy"] = true
 L["%d item"] = true
 L["%d material"] = true
 
+-- UI/Theme.lua
+L["Cancel"] = true
+
 -- UI/Welcome.lua
 L["Window style and text size live here."] = true
 L["Or type  /nr style  or  /nr text"] = true
@@ -682,7 +690,6 @@ L["Faction vendors"] = true
 L["Not in NeedRoll yet"] = true
 L["Quest: %s"] = true
 L["Click to open its source"] = true
-L["Cancel"] = true
 L["Save"] = true
 L["Import"] = true
 L["Paste a sixtyupgrades.com export (Export, then Copy JSON) or a NeedRoll share string."] = true
@@ -694,7 +701,6 @@ L["%d found in NeedRoll, %d from dungeons and raids"] = true
 L["Imported %s"] = true
 L["Export"] = true
 L["Press Ctrl+C to copy, then paste it in chat. Other NeedRoll players paste it into Import."] = true
-L["Done"] = true
 L["New empty list..."] = true
 L["An empty list, starred items go on it."] = true
 L["Type a name."] = true
