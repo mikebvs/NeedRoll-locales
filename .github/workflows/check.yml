@@ -1,0 +1,25 @@
+name: Check translations
+
+# Every language file runs inside players' games, so each line must be a
+# plain phrase (L["English"] = "Translation") that keeps the English %s and
+# %d codes in order. tools/translations.py is copied here from NeedRoll.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Lua 5.1
+        run: sudo apt-get update -q && sudo apt-get install -y -q lua5.1
+      - name: Compile
+        run: for f in Locales/*.lua; do luac5.1 -p "$f"; done
+      - name: Check
+        run: python3 tools/translations.py Locales --summary

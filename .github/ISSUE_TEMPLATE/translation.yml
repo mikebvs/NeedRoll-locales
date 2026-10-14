@@ -1,0 +1,34 @@
+name: Translation problem
+description: A wrong, missing or cut-off phrase in your language.
+title: "[xxXX] "
+labels: ["translation"]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - German (deDE)
+        - Spanish, Spain (esES)
+        - Spanish, Mexico (esMX)
+        - French (frFR)
+        - Italian (itIT)
+        - Korean (koKR)
+        - Portuguese, Brazil (ptBR)
+        - Russian (ruRU)
+        - Chinese, Simplified (zhCN)
+        - Chinese, Traditional (zhTW)
+    validations:
+      required: true
+  - type: input
+    id: english
+    attributes:
+      label: English phrase
+      description: As it appears in Locales/enUS.lua, if you know it.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong
+      description: Where you saw it in NeedRoll, what it says now, and what it should say. A screenshot helps.
+    validations:
+      required: true
