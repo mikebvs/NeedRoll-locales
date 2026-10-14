@@ -6,8 +6,8 @@
 -- A phrase left out shows in English.
 -- First drafts written by machine (2026-10-14); corrections are welcome.
 local _, ns = ...
-if GetLocale() ~= "ptBR" then return end
-local L = ns.L
+local L = ns.Phrases("ptBR")
+if not L then return end
 
 -- Core/Init.lua
 L["Starred items"] = "Itens marcados"
