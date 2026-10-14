@@ -283,6 +283,14 @@ L["The ruins outside the walls of Ahn'Qiraj in Silithus. General Rajaxx and Ossi
 L["The temple city of Ahn'Qiraj, where the silithid and qiraji serve the Old God C'Thun. The Scarab Wall that held them for a thousand years has been opened, and the god's servants must be stopped at its heart."] = true
 L["A floating necropolis over the Eastern Plaguelands, seat of the lich Kel'Thuzad. From here the Scourge plans its next assault, and the Argent Dawn is preparing a strike against it."] = true
 
+-- Data/VendorPairs.lua
+L["Mivin Shadowweave"] = true
+L["Alynsia"] = true
+L["Stondry Darkhammer"] = true
+L["Daniel Stitchsong"] = true
+L["Fritz Fizzle"] = true
+L["Nina Surefire"] = true
+
 -- Locales/NpcNames/Forever.lua
 L["Blackfathom Tide Priestess"] = true
 L["Pix Xizzix"] = true
