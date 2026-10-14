@@ -40,6 +40,15 @@ FORMAT = re.compile(r'%(?:%|[-+ #0]*\d*(?:\.\d+)?[a-zA-Z])')
 def header(locale):
     return [
         "local _, ns = ...",
+        'local L = ns.Phrases("%s")' % locale,
+        "if not L then return end",
+    ]
+
+
+# The header language files had before ns.Phrases; still accepted.
+def old_header(locale):
+    return [
+        "local _, ns = ...",
         'if GetLocale() ~= "%s" then return end' % locale,
         "local L = ns.L",
     ]
@@ -72,7 +81,7 @@ def check(folder, locale, known):
         return ["missing file"], unused, done
     lines = list(code_lines(path))
     want = header(locale)
-    if [line for _, line in lines[:3]] != want:
+    if [line for _, line in lines[:3]] not in (want, old_header(locale)):
         errors.append("the file must start with these lines (after comments):\n    " + "\n    ".join(want))
         return errors, unused, done
     for number, line in lines[3:]:
