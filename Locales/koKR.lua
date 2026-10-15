@@ -690,7 +690,7 @@ L["%d material"] = "재료 %d개"
 -- UI/Welcome.lua
 L["Window style and text size live here."] = "창 스타일과 글자 크기는 여기에서 바꿉니다."
 L["Or type  /nr style  or  /nr text"] = "또는  /nr style  또는  /nr text  입력"
-L["Drop sharing"] = "전리품 공유"
+L["NeedRoll DropTalk System Consent"] = "NeedRoll DropTalk 시스템 동의"
 L["NeedRoll shares the boss drops you see with other NeedRoll players to fill in its loot lists. It uses hidden addon messages, sends at most one a minute, and never affects your performance or gameplay."] = "NeedRoll은 당신이 본 우두머리 전리품을 다른 NeedRoll 사용자와 공유하여 전리품 목록을 채웁니다. 숨겨진 애드온 메시지를 사용하고, 1분에 최대 한 번만 보내며, 성능이나 게임 플레이에 절대 영향을 주지 않습니다."
 L["Keeping it on helps map out WoW: Forever, and those finds reach your addon sooner. Turning it off stops NeedRoll sending anything, so its lists fill in more slowly."] = "켜 두면 WoW: Forever의 정보를 밝혀내는 데 도움이 되고, 그 발견이 애드온에 더 빨리 반영됩니다. 끄면 NeedRoll이 아무것도 보내지 않으며, 목록이 더 느리게 채워집니다."
 L["It's fully opt-in, and you can change it any time in NeedRoll's Settings."] = "완전히 선택 사항이며, NeedRoll 설정에서 언제든지 변경할 수 있습니다."

@@ -690,7 +690,7 @@ L["%d material"] = "%d种材料"
 -- UI/Welcome.lua
 L["Window style and text size live here."] = "窗口风格和文字大小在这里设置。"
 L["Or type  /nr style  or  /nr text"] = "或输入  /nr style  或  /nr text"
-L["Drop sharing"] = "掉落分享"
+L["NeedRoll DropTalk System Consent"] = "NeedRoll DropTalk 系统同意"
 L["NeedRoll shares the boss drops you see with other NeedRoll players to fill in its loot lists. It uses hidden addon messages, sends at most one a minute, and never affects your performance or gameplay."] = "NeedRoll 会把你看到的首领掉落分享给其他 NeedRoll 玩家，以补全掉落列表。它通过隐藏的插件消息通信，每分钟最多发送一条，绝不会影响性能或游戏体验。"
 L["Keeping it on helps map out WoW: Forever, and those finds reach your addon sooner. Turning it off stops NeedRoll sending anything, so its lists fill in more slowly."] = "保持开启有助于探索 WoW: Forever，这些发现也会更快出现在你的插件中。关闭后，NeedRoll 不会发送任何内容，列表的补全会变慢。"
 L["It's fully opt-in, and you can change it any time in NeedRoll's Settings."] = "这完全是自愿的，你可以随时在 NeedRoll 的设置中更改。"

@@ -690,7 +690,7 @@ L["%d material"] = "%d Material"
 -- UI/Welcome.lua
 L["Window style and text size live here."] = "Fensterstil und Textgröße findest du hier."
 L["Or type  /nr style  or  /nr text"] = "Oder gib  /nr style  oder  /nr text  ein"
-L["Drop sharing"] = "Beute teilen"
+L["NeedRoll DropTalk System Consent"] = "NeedRoll DropTalk – Einwilligung"
 L["NeedRoll shares the boss drops you see with other NeedRoll players to fill in its loot lists. It uses hidden addon messages, sends at most one a minute, and never affects your performance or gameplay."] = "NeedRoll teilt die Bossbeute, die du siehst, mit anderen NeedRoll-Spielern, um die Beutelisten zu füllen. Es nutzt versteckte Addon-Nachrichten, sendet höchstens eine pro Minute und beeinträchtigt nie Leistung oder Gameplay."
 L["Keeping it on helps map out WoW: Forever, and those finds reach your addon sooner. Turning it off stops NeedRoll sending anything, so its lists fill in more slowly."] = "Wenn es an bleibt, hilfst du, WoW: Forever zu erschließen, und diese Funde kommen schneller in dein Addon. Ausschalten stoppt alles, was NeedRoll sendet, und die Listen füllen sich langsamer."
 L["It's fully opt-in, and you can change it any time in NeedRoll's Settings."] = "Es ist völlig freiwillig, und du kannst es jederzeit in den Einstellungen von NeedRoll ändern."
