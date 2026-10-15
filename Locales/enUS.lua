@@ -642,9 +642,12 @@ L["Item tooltips anywhere in the game (bags, inspect, chat links, loot) name the
 L["Collection ticks"] = true
 L["Marks gear whose look you've collected"] = true
 L["A tick after an item's name shows whether you have collected its appearance: in color once collected, grey until then."] = true
-L["Share drops with the realm"] = true
+L["Share drops"] = true
 L["Helps fill in loot lists for everyone"] = true
-L["NeedRoll tells your guild and group which items dungeon and raid bosses drop, to help fill in its loot lists. On also shares them, through a hidden chat channel, with everyone on your realm running NeedRoll."] = true
+L["NeedRoll tells other NeedRoll players on your realm and in your guild which items bosses drop, through hidden addon messages, to help fill in its loot lists. Off stops NeedRoll sending anything to other players, so its loot lists fill in more slowly."] = true
+L["Credit my finds"] = true
+L["Your character name in NeedRoll's credits"] = true
+L["On puts your character name, with what you shared, in the credits file that ships with NeedRoll. Off stores your finds anonymously."] = true
 L["Settings"] = true
 L["Window style, UI scale, the minimap button, the map in dungeons, drop sources on tooltips, a key to open NeedRoll and which tabs to show."] = true
 L["Needs %s: it is off while %s is."] = true
@@ -701,6 +704,13 @@ L["Cancel"] = true
 -- UI/Welcome.lua
 L["Window style and text size live here."] = true
 L["Or type  /nr style  or  /nr text"] = true
+L["NeedRoll DropTalk System Consent"] = true
+L["NeedRoll shares the boss drops you see with other NeedRoll players to fill in its loot lists. It uses hidden addon messages, sends at most one a minute, and never affects your performance or gameplay."] = true
+L["Keeping it on helps map out WoW: Forever, and those finds reach your addon sooner. Turning it off stops NeedRoll sending anything, so its lists fill in more slowly."] = true
+L["It's fully opt-in, and you can change it any time in NeedRoll's Settings."] = true
+L["Credit my finds by character name (otherwise they're stored anonymously)"] = true
+L["Turn off"] = true
+L["Keep sharing"] = true
 
 -- UI/Wishlist.lua
 L["Crafted"] = true
