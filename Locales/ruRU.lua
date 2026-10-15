@@ -641,7 +641,7 @@ L["Marks gear whose look you've collected"] = "Отмечает снаряжен
 L["A tick after an item's name shows whether you have collected its appearance: in color once collected, grey until then."] = "Отметка после названия предмета показывает, собрана ли его модель: цветная после сбора, серая до тех пор."
 L["Share drops with the realm"] = "Делиться добычей с игровым миром"
 L["Helps fill in loot lists for everyone"] = "Помогает заполнять списки добычи для всех"
-L["NeedRoll tells your guild and group which items dungeon and raid bosses drop, to help fill in its loot lists. On also shares them, through a hidden chat channel, with everyone on your realm running NeedRoll."] = "NeedRoll сообщает вашей гильдии и группе, какие предметы выпадают из боссов подземелий и рейдов, чтобы дополнять списки добычи. Если включено, эти данные также передаются через скрытый канал чата всем игрокам вашего игрового мира с NeedRoll."
+L["NeedRoll tells your guild which items dungeon and raid bosses drop, to help fill in its loot lists. On also shares them, through a hidden chat channel, with everyone on your realm running NeedRoll."] = "NeedRoll сообщает вашей гильдии, какие предметы выпадают с боссов подземелий и рейдов, чтобы дополнять списки добычи. Если включено, также делится ими через скрытый канал чата со всеми игроками NeedRoll в вашем игровом мире."
 L["Settings"] = "Настройки"
 L["Window style, UI scale, the minimap button, the map in dungeons, drop sources on tooltips, a key to open NeedRoll and which tabs to show."] = "Стиль окна, масштаб интерфейса, кнопка у миникарты, карта в подземельях, источники добычи в подсказках, клавиша для открытия NeedRoll и видимые вкладки."
 L["Needs %s: it is off while %s is."] = "Требуется «%s»: отключено, пока отключено «%s»."
@@ -690,6 +690,10 @@ L["%d material"] = "Материалов: %d"
 -- UI/Welcome.lua
 L["Window style and text size live here."] = "Стиль окна и размер текста настраиваются здесь."
 L["Or type  /nr style  or  /nr text"] = "Или введите  /nr style  или  /nr text"
+L["NeedRoll shares the boss drops you see with other NeedRoll players on your realm, to help fill in its loot lists. It talks through hidden addon messages, sends at most one a minute, and has no effect on your performance or gameplay."] = "NeedRoll делится добычей с боссов, которую вы видите, с другими игроками NeedRoll в вашем игровом мире, чтобы дополнять списки добычи. Он использует скрытые сообщения аддонов, отправляет не больше одного в минуту и никак не влияет на производительность или игровой процесс."
+L["You can change this any time in NeedRoll's Settings."] = "Это можно изменить в любой момент в настройках NeedRoll."
+L["Keep sharing"] = "Продолжить"
+L["Turn off"] = "Отключить"
 
 -- UI/Wishlist.lua
 L["Crafted"] = "Ремесло"

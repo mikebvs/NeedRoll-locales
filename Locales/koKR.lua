@@ -641,7 +641,7 @@ L["Marks gear whose look you've collected"] = "외형을 수집한 장비 표시
 L["A tick after an item's name shows whether you have collected its appearance: in color once collected, grey until then."] = "아이템 이름 뒤의 체크 표시로 외형 수집 여부를 보여 줍니다. 수집하면 색이 있고, 그전에는 회색입니다."
 L["Share drops with the realm"] = "서버와 드롭 정보 공유"
 L["Helps fill in loot lists for everyone"] = "모두의 전리품 목록을 채우는 데 도움"
-L["NeedRoll tells your guild and group which items dungeon and raid bosses drop, to help fill in its loot lists. On also shares them, through a hidden chat channel, with everyone on your realm running NeedRoll."] = "NeedRoll은 전리품 목록을 채우기 위해 던전과 공격대 우두머리가 드롭한 아이템을 길드와 파티에 알립니다. 켜면 숨겨진 대화 채널을 통해 같은 서버에서 NeedRoll을 쓰는 모든 사람과도 공유합니다."
+L["NeedRoll tells your guild which items dungeon and raid bosses drop, to help fill in its loot lists. On also shares them, through a hidden chat channel, with everyone on your realm running NeedRoll."] = "NeedRoll은 던전과 공격대 우두머리가 떨어뜨리는 아이템을 길드에 알려 전리품 목록을 채웁니다. 켜면 숨겨진 대화 채널을 통해 서버의 모든 NeedRoll 사용자와도 공유합니다."
 L["Settings"] = "설정"
 L["Window style, UI scale, the minimap button, the map in dungeons, drop sources on tooltips, a key to open NeedRoll and which tabs to show."] = "창 스타일, UI 크기, 미니맵 버튼, 던전 지도, 툴팁 드롭 정보, NeedRoll 열기 단축키, 표시할 탭."
 L["Needs %s: it is off while %s is."] = "%s 필요: %s 항목이 꺼져 있는 동안 꺼집니다."
@@ -690,6 +690,10 @@ L["%d material"] = "재료 %d개"
 -- UI/Welcome.lua
 L["Window style and text size live here."] = "창 스타일과 글자 크기는 여기에서 바꿉니다."
 L["Or type  /nr style  or  /nr text"] = "또는  /nr style  또는  /nr text  입력"
+L["NeedRoll shares the boss drops you see with other NeedRoll players on your realm, to help fill in its loot lists. It talks through hidden addon messages, sends at most one a minute, and has no effect on your performance or gameplay."] = "NeedRoll은 당신이 본 우두머리 전리품을 같은 서버의 다른 NeedRoll 사용자와 공유하여 전리품 목록을 채웁니다. 숨겨진 애드온 메시지를 사용하고, 1분에 최대 한 번만 보내며, 성능이나 게임 플레이에 아무런 영향을 주지 않습니다."
+L["You can change this any time in NeedRoll's Settings."] = "NeedRoll 설정에서 언제든지 변경할 수 있습니다."
+L["Keep sharing"] = "계속 공유"
+L["Turn off"] = "끄기"
 
 -- UI/Wishlist.lua
 L["Crafted"] = "제작"

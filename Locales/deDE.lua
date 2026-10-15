@@ -641,7 +641,7 @@ L["Marks gear whose look you've collected"] = "Markiert Ausrüstung, deren Ausse
 L["A tick after an item's name shows whether you have collected its appearance: in color once collected, grey until then."] = "Ein Häkchen nach dem Gegenstandsnamen zeigt, ob du seine Vorlage gesammelt hast: farbig, sobald gesammelt, bis dahin grau."
 L["Share drops with the realm"] = "Drops mit dem Realm teilen"
 L["Helps fill in loot lists for everyone"] = "Hilft, die Beutelisten für alle zu füllen"
-L["NeedRoll tells your guild and group which items dungeon and raid bosses drop, to help fill in its loot lists. On also shares them, through a hidden chat channel, with everyone on your realm running NeedRoll."] = "NeedRoll teilt deiner Gilde und Gruppe mit, welche Gegenstände Dungeon- und Schlachtzugsbosse droppen, um die Beutelisten zu füllen. Wenn an, auch über einen versteckten Chatkanal mit allen NeedRoll-Nutzern auf deinem Realm."
+L["NeedRoll tells your guild which items dungeon and raid bosses drop, to help fill in its loot lists. On also shares them, through a hidden chat channel, with everyone on your realm running NeedRoll."] = "NeedRoll teilt deiner Gilde mit, welche Gegenstände Dungeon- und Schlachtzugsbosse droppen, um die Beutelisten zu füllen. Wenn an, auch über einen versteckten Chatkanal mit allen NeedRoll-Nutzern auf deinem Realm."
 L["Settings"] = "Einstellungen"
 L["Window style, UI scale, the minimap button, the map in dungeons, drop sources on tooltips, a key to open NeedRoll and which tabs to show."] = "Fensterstil, UI-Skalierung, Minikartenbutton, Karte in Dungeons, Dropquellen in Tooltips, eine Taste zum Öffnen von NeedRoll und welche Reiter angezeigt werden."
 L["Needs %s: it is off while %s is."] = "Benötigt %s: aus, solange %s aus ist."
@@ -690,6 +690,10 @@ L["%d material"] = "%d Material"
 -- UI/Welcome.lua
 L["Window style and text size live here."] = "Fensterstil und Textgröße findest du hier."
 L["Or type  /nr style  or  /nr text"] = "Oder gib  /nr style  oder  /nr text  ein"
+L["NeedRoll shares the boss drops you see with other NeedRoll players on your realm, to help fill in its loot lists. It talks through hidden addon messages, sends at most one a minute, and has no effect on your performance or gameplay."] = "NeedRoll teilt die Bossbeute, die du siehst, mit anderen NeedRoll-Spielern auf deinem Realm, um die Beutelisten zu füllen. Es nutzt versteckte Addon-Nachrichten, sendet höchstens eine pro Minute und hat keinen Einfluss auf Leistung oder Gameplay."
+L["You can change this any time in NeedRoll's Settings."] = "Du kannst das jederzeit in den Einstellungen von NeedRoll ändern."
+L["Keep sharing"] = "Weiter teilen"
+L["Turn off"] = "Ausschalten"
 
 -- UI/Wishlist.lua
 L["Crafted"] = "Hergestellt"

@@ -644,7 +644,6 @@ L["Marks gear whose look you've collected"] = true
 L["A tick after an item's name shows whether you have collected its appearance: in color once collected, grey until then."] = true
 L["Share drops with the realm"] = true
 L["Helps fill in loot lists for everyone"] = true
-L["NeedRoll tells your guild and group which items dungeon and raid bosses drop, to help fill in its loot lists. On also shares them, through a hidden chat channel, with everyone on your realm running NeedRoll."] = true
 L["Settings"] = true
 L["Window style, UI scale, the minimap button, the map in dungeons, drop sources on tooltips, a key to open NeedRoll and which tabs to show."] = true
 L["Needs %s: it is off while %s is."] = true
