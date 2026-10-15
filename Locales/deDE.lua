@@ -804,3 +804,12 @@ L["How to summon"] = "Beschwörung"
 L["How to summon (spoiler)"] = "Beschwörung (Spoiler)"
 L["Click to show it"] = "Klicken zum Anzeigen"
 L["Use the %s at the summoning circle in the Dalaran Sewers."] = "Benutze %s am Beschwörungskreis in der Kanalisation von Dalaran."
+
+-- Quest UI tweaks update (quest chain section)
+L["Quest chain"] = "Questreihe"
+L["In log"] = "Im Log"
+L["Not started"] = "Nicht begonnen"
+L["Show all %d steps"] = "Alle %d Schritte zeigen"
+L["Previous: %s"] = "Vorherige: %s"
+L["Next: %s"] = "Nächste: %s"
+L["Turn in"] = "Abgeben"

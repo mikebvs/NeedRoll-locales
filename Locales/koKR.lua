@@ -804,3 +804,12 @@ L["How to summon"] = "소환 방법"
 L["How to summon (spoiler)"] = "소환 방법 (스포일러)"
 L["Click to show it"] = "클릭하여 보기"
 L["Use the %s at the summoning circle in the Dalaran Sewers."] = "달라란 하수도의 소환 법진에서 %s 아이템을 사용하세요."
+
+-- Quest UI tweaks update (quest chain section)
+L["Quest chain"] = "연계 퀘스트"
+L["In log"] = "목록에 있음"
+L["Not started"] = "시작 안 함"
+L["Show all %d steps"] = "%d단계 모두 보기"
+L["Previous: %s"] = "이전: %s"
+L["Next: %s"] = "다음: %s"
+L["Turn in"] = "완료 보고"
