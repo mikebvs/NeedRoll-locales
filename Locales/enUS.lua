@@ -565,6 +565,7 @@ L["In dungeons the map key opens NeedRoll's map. Map in dungeons in Settings (to
 L["Patrols %s"] = true
 L["Click to see its loot"] = true
 L["the map"] = true
+L["Escort"] = true
 L["Click to go to this level"] = true
 L["Raid entrance"] = true
 L["Locked: needs a key or lockpicking"] = true
