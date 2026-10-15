@@ -562,6 +562,7 @@ L["In dungeons the map key opens NeedRoll's map. Map in dungeons in Settings (to
 L["Patrols %s"] = "Patrouille : %s"
 L["Click to see its loot"] = "Cliquez pour voir son butin"
 L["the map"] = "la carte"
+L["Escort"] = "Escorte"
 L["Click to go to this level"] = "Cliquez pour aller à ce niveau"
 L["Raid entrance"] = "Entrée du raid"
 L["Locked: needs a key or lockpicking"] = "Verrouillé : clé ou crochetage requis"
