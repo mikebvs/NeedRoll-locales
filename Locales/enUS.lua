@@ -330,6 +330,7 @@ L["Viktor The Vile"] = true
 L["Bjork"] = true
 L["Nyalah Brightfire"] = true
 L["Granny Finespindle"] = true
+L["Lumina Windsinger"] = true
 L["Martha Wellsworth"] = true
 L["Saltspine"] = true
 L["Shadetooth"] = true
