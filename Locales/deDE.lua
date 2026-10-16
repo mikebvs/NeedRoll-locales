@@ -866,3 +866,12 @@ L["Stondry Darkhammer"] = "Stondry Darkhammer"
 L["Daniel Stitchsong"] = "Daniel Stitchsong"
 L["Fritz Fizzle"] = "Fritz Fizzle"
 L["Nina Surefire"] = "Nina Surefire"
+
+-- Settings, search and dungeon map tweaks (key binding, quest search, Types filter, accepted quests on the map)
+L["Press %s again to replace it"] = "Drücke %s erneut, um die Belegung zu ersetzen"
+L["Press any button to bind/Escape to exit"] = "Drücke eine Taste zum Belegen/Escape zum Beenden"
+L["Search loot, bosses, dungeons, quests"] = "Beute, Bosse, Dungeons, Quests suchen"
+L["Right-click to clear filters"] = "Rechtsklick, um die Filter zu leeren"
+L["Show only accepted quests"] = "Nur angenommene Quests zeigen"
+L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = "Wenn aktiviert: Die Dungeonkarte zeigt nur Quests, die du hast oder in der Instanz annehmen kannst"
+L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = "An: Die Dungeonkarte zeigt Questmarkierungen, Töten- und Beute-Symbole, Dropgebiete und zonenweite Quests nur für Quests in deinem Questlog, dazu das \"!\" von Quests, die du drinnen annehmen kannst. Aus: Sie zeigt die aller Quests. Ein auf einer Questseite angeklicktes Ziel zeigt seine Markierungen in beiden Fällen."

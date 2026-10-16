@@ -866,3 +866,12 @@ L["Stondry Darkhammer"] = "Stondry Darkhammer"
 L["Daniel Stitchsong"] = "Daniel Stitchsong"
 L["Fritz Fizzle"] = "Fritz Fizzle"
 L["Nina Surefire"] = "Nina Surefire"
+
+-- Settings, search and dungeon map tweaks (key binding, quest search, Types filter, accepted quests on the map)
+L["Press %s again to replace it"] = "Presiona %s otra vez para reemplazarla"
+L["Press any button to bind/Escape to exit"] = "Presiona una tecla para asignar/Escape para salir"
+L["Search loot, bosses, dungeons, quests"] = "Buscar botín, jefes, calabozos, misiones"
+L["Right-click to clear filters"] = "Clic derecho para borrar los filtros"
+L["Show only accepted quests"] = "Mostrar solo misiones aceptadas"
+L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = "Si está activado: el mapa de calabozo solo muestra las misiones que tienes o que puedes aceptar dentro de la instancia"
+L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = "Activado: el mapa de calabozo muestra marcadores de misión, íconos de matar y botín, zonas de botín y misiones de toda la zona solo para las misiones de tu registro, además del \"!\" de las misiones que puedes aceptar dentro. Desactivado: muestra los de todas las misiones. Un objetivo al que le das clic en una página de misión muestra sus marcadores en ambos casos."

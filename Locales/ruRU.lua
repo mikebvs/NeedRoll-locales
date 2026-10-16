@@ -866,3 +866,12 @@ L["Stondry Darkhammer"] = "Стондри Темномолот"
 L["Daniel Stitchsong"] = "Дэниел Стичсонг"
 L["Fritz Fizzle"] = "Фриц Физзл"
 L["Nina Surefire"] = "Нина Шуэрфайр"
+
+-- Settings, search and dungeon map tweaks (key binding, quest search, Types filter, accepted quests on the map)
+L["Press %s again to replace it"] = "Нажмите %s еще раз, чтобы заменить"
+L["Press any button to bind/Escape to exit"] = "Нажмите клавишу для назначения/Escape для выхода"
+L["Search loot, bosses, dungeons, quests"] = "Поиск добычи, боссов, подземелий, заданий"
+L["Right-click to clear filters"] = "Правый клик, чтобы сбросить фильтры"
+L["Show only accepted quests"] = "Только принятые задания"
+L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = "Если включено: карта подземелья показывает только ваши задания и те, что можно взять внутри подземелья"
+L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = "Вкл.: карта подземелья показывает метки заданий, значки убийства и добычи, области добычи и задания на всю зону только для заданий из вашего журнала, а также \"!\" заданий, которые можно взять внутри. Выкл.: показывает метки всех заданий. Цель, нажатая на странице задания, показывает свои метки в любом случае."

@@ -866,3 +866,12 @@ L["Stondry Darkhammer"] = "스톤드리 다크해머"
 L["Daniel Stitchsong"] = "대니얼 스티치송"
 L["Fritz Fizzle"] = "프리츠 피즐"
 L["Nina Surefire"] = "니나 슈어파이어"
+
+-- Settings, search and dungeon map tweaks (key binding, quest search, Types filter, accepted quests on the map)
+L["Press %s again to replace it"] = "교체하려면 %s 키를 다시 누르세요"
+L["Press any button to bind/Escape to exit"] = "지정할 키를 누르세요/Esc로 종료"
+L["Search loot, bosses, dungeons, quests"] = "전리품, 우두머리, 던전, 퀘스트 검색"
+L["Right-click to clear filters"] = "오른쪽 클릭으로 필터 초기화"
+L["Show only accepted quests"] = "수락한 퀘스트만 표시"
+L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = "사용 시: 던전 지도에 진행 중이거나 인스턴스 안에서 받을 수 있는 퀘스트만 표시합니다"
+L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = "켬: 던전 지도에 퀘스트 표시, 처치 및 전리품 아이콘, 획득 지역, 지역 전체 퀘스트를 퀘스트 목록에 있는 퀘스트만 표시하며, 안에서 받을 수 있는 퀘스트의 \"!\"도 표시합니다. 끔: 모든 퀘스트의 표시를 보여줍니다. 퀘스트 페이지에서 클릭한 대상은 어느 쪽이든 표시가 나타납니다."
