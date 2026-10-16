@@ -344,7 +344,6 @@ L["Magus Olvek"] = true
 L["Aisarra Nightmeadow"] = true
 L["Earthseer Farsen"] = true
 L["Afadra Dunwall"] = true
-L["Thom Filch"] = true
 L["Morbin Lightbane"] = true
 L["Pexmit"] = true
 L["Image of Archmage Modera"] = true
