@@ -875,3 +875,8 @@ L["Right-click to clear filters"] = "右键点击清除筛选"
 L["Show only accepted quests"] = "只显示已接受的任务"
 L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = "启用后：地下城地图只显示你正在进行或可在副本内接取的任务"
 L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = "开启：地下城地图只为任务日志中的任务显示任务标记、击杀和拾取图标、掉落区域及全区域任务，并显示可在副本内接取的任务的\"!\"。关闭：显示所有任务的标记。在任务页面点击的目标无论如何都会显示其标记。"
+
+-- Class filter on loot pages
+L["Class"] = "职业"
+L["All classes"] = "所有职业"
+L["Shows only what one class can use"] = "只显示一个职业可以使用的物品"

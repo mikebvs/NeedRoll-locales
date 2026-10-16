@@ -875,3 +875,8 @@ L["Right-click to clear filters"] = "Clic destro per azzerare i filtri"
 L["Show only accepted quests"] = "Mostra solo missioni accettate"
 L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = "Se attivo: la mappa della spedizione mostra solo le missioni che hai o che puoi prendere dentro l'istanza"
 L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = "Attivo: la mappa della spedizione mostra indicatori di missione, icone di uccisione e bottino, zone di bottino e missioni di tutta la zona solo per le missioni nel tuo registro, oltre al \"!\" delle missioni che puoi prendere dentro. Disattivo: mostra quelli di tutte le missioni. Un obiettivo cliccato in una pagina di missione mostra i suoi indicatori in ogni caso."
+
+-- Class filter on loot pages
+L["Class"] = "Classe"
+L["All classes"] = "Tutte le classi"
+L["Shows only what one class can use"] = "Mostra solo ciò che una classe può usare"

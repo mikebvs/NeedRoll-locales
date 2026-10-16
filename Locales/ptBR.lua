@@ -875,3 +875,8 @@ L["Right-click to clear filters"] = "Clique com o botão direito para limpar os 
 L["Show only accepted quests"] = "Mostrar só missões aceitas"
 L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = "Quando ativado: o mapa da masmorra só mostra as missões que você tem ou pode pegar dentro da instância"
 L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = "Ligado: o mapa da masmorra mostra marcadores de missão, ícones de abate e saque, áreas de saque e missões da zona inteira só para as missões do seu registro, além do \"!\" das missões que você pode pegar lá dentro. Desligado: mostra os de todas as missões. Um alvo clicado numa página de missão mostra seus marcadores de qualquer forma."
+
+-- Class filter on loot pages
+L["Class"] = "Classe"
+L["All classes"] = "Todas as classes"
+L["Shows only what one class can use"] = "Mostra só o que uma classe pode usar"
