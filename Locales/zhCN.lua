@@ -866,3 +866,12 @@ L["Stondry Darkhammer"] = "斯通德里·黑锤"
 L["Daniel Stitchsong"] = "丹尼尔·针歌"
 L["Fritz Fizzle"] = "弗里茨·菲兹尔"
 L["Nina Surefire"] = "妮娜·稳火"
+
+-- Settings, search and dungeon map tweaks (key binding, quest search, Types filter, accepted quests on the map)
+L["Press %s again to replace it"] = "再次按下%s以替换"
+L["Press any button to bind/Escape to exit"] = "按下任意键进行绑定/按Esc退出"
+L["Search loot, bosses, dungeons, quests"] = "搜索掉落、首领、地下城、任务"
+L["Right-click to clear filters"] = "右键点击清除筛选"
+L["Show only accepted quests"] = "只显示已接受的任务"
+L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = "启用后：地下城地图只显示你正在进行或可在副本内接取的任务"
+L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = "开启：地下城地图只为任务日志中的任务显示任务标记、击杀和拾取图标、掉落区域及全区域任务，并显示可在副本内接取的任务的\"!\"。关闭：显示所有任务的标记。在任务页面点击的目标无论如何都会显示其标记。"

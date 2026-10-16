@@ -866,3 +866,12 @@ L["Stondry Darkhammer"] = "斯通德里·黑錘"
 L["Daniel Stitchsong"] = "丹尼爾·針歌"
 L["Fritz Fizzle"] = "弗里茨·菲茲爾"
 L["Nina Surefire"] = "妮娜·穩火"
+
+-- Settings, search and dungeon map tweaks (key binding, quest search, Types filter, accepted quests on the map)
+L["Press %s again to replace it"] = "再次按下%s以取代"
+L["Press any button to bind/Escape to exit"] = "按下任意鍵進行綁定/按Esc離開"
+L["Search loot, bosses, dungeons, quests"] = "搜尋戰利品、首領、地城、任務"
+L["Right-click to clear filters"] = "右鍵點擊清除篩選"
+L["Show only accepted quests"] = "只顯示已接受的任務"
+L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = "啟用時：地城地圖只顯示你正在進行或可在副本內接取的任務"
+L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = "開啟：地城地圖只為任務日誌中的任務顯示任務標記、擊殺和拾取圖示、掉落區域及全區域任務，並顯示可在副本內接取的任務的\"!\"。關閉：顯示所有任務的標記。在任務頁面點擊的目標無論如何都會顯示其標記。"

@@ -866,3 +866,12 @@ L["Stondry Darkhammer"] = "Stondry Darkhammer"
 L["Daniel Stitchsong"] = "Daniel Stitchsong"
 L["Fritz Fizzle"] = "Fritz Fizzle"
 L["Nina Surefire"] = "Nina Surefire"
+
+-- Settings, search and dungeon map tweaks (key binding, quest search, Types filter, accepted quests on the map)
+L["Press %s again to replace it"] = "Appuyez à nouveau sur %s pour la remplacer"
+L["Press any button to bind/Escape to exit"] = "Appuyez sur une touche pour l'assigner/Échap pour quitter"
+L["Search loot, bosses, dungeons, quests"] = "Chercher butin, boss, donjons, quêtes"
+L["Right-click to clear filters"] = "Clic droit pour effacer les filtres"
+L["Show only accepted quests"] = "Afficher seulement les quêtes acceptées"
+L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = "Activé : la carte du donjon n'affiche que les quêtes que vous avez ou pouvez prendre dans l'instance"
+L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = "Activé : la carte du donjon n'affiche les marqueurs de quête, icônes à tuer et à ramasser, zones de butin et quêtes de toute la zone que pour les quêtes de votre journal, plus le \"!\" des quêtes à prendre à l'intérieur. Désactivé : elle affiche ceux de toutes les quêtes. Une cible cliquée sur une page de quête affiche ses marqueurs dans les deux cas."
