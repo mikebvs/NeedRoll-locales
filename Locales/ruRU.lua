@@ -875,3 +875,8 @@ L["Right-click to clear filters"] = "Правый клик, чтобы сбро�
 L["Show only accepted quests"] = "Только принятые задания"
 L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = "Если включено: карта подземелья показывает только ваши задания и те, что можно взять внутри подземелья"
 L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = "Вкл.: карта подземелья показывает метки заданий, значки убийства и добычи, области добычи и задания на всю зону только для заданий из вашего журнала, а также \"!\" заданий, которые можно взять внутри. Выкл.: показывает метки всех заданий. Цель, нажатая на странице задания, показывает свои метки в любом случае."
+
+-- Class filter on loot pages
+L["Class"] = "Класс"
+L["All classes"] = "Все классы"
+L["Shows only what one class can use"] = "Показывает только то, что может использовать один класс"
