@@ -804,3 +804,12 @@ L["How to summon"] = "召唤方法"
 L["How to summon (spoiler)"] = "召唤方法（剧透）"
 L["Click to show it"] = "点击显示"
 L["Use the %s at the summoning circle in the Dalaran Sewers."] = "在达拉然下水道的召唤法阵处使用%s。"
+
+-- Quest UI tweaks update (quest chain section)
+L["Quest chain"] = "任务链"
+L["In log"] = "日志中"
+L["Not started"] = "未开始"
+L["Show all %d steps"] = "显示全部%d步"
+L["Previous: %s"] = "上一步：%s"
+L["Next: %s"] = "下一步：%s"
+L["Turn in"] = "交任务"

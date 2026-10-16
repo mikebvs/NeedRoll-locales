@@ -804,3 +804,12 @@ L["How to summon"] = "Como invocar"
 L["How to summon (spoiler)"] = "Como invocar (spoiler)"
 L["Click to show it"] = "Clique para mostrar"
 L["Use the %s at the summoning circle in the Dalaran Sewers."] = "Use %s no círculo de invocação dos Esgotos de Dalaran."
+
+-- Quest UI tweaks update (quest chain section)
+L["Quest chain"] = "Sequência de missões"
+L["In log"] = "No registro"
+L["Not started"] = "Não iniciada"
+L["Show all %d steps"] = "Mostrar as %d etapas"
+L["Previous: %s"] = "Anterior: %s"
+L["Next: %s"] = "Próxima: %s"
+L["Turn in"] = "Entregar"
