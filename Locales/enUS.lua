@@ -31,6 +31,8 @@ L["Shopping List"] = true
 L["Materials to buy for your crafts"] = true
 L["Wishlist"] = true
 L["Gear you want, starred on loot lists"] = true
+L["Classes"] = true
+L["Every class's talent trees, with a planner"] = true
 L["v%s is available (you are running v%s). Update through CurseForge."] = true
 L["%s by Flowmotion"] = true
 L["UI not built yet."] = true
@@ -361,6 +363,11 @@ L["Min'Loth the Serpent"] = true
 L["Gill"] = true
 L["Hatescreech"] = true
 L["Decrepit Harvester"] = true
+
+-- UI/Classes.lua
+L["Talents"] = true
+L["Planner"] = true
+L["You"] = true
 
 -- UI/Lists.lua
 L["Classic Raids"] = true
@@ -798,6 +805,18 @@ L["Open a recipe on the Professions tab and click \"Add to shopping list\"."] = 
 L["%s  ·  %s to buy"] = true
 L["%d item"] = true
 L["%d material"] = true
+
+-- UI/TalentPlanner.lua
+L["Level %s  ·  %s points  ·  %s left"] = true
+L["Rank %d/%d"] = true
+L["Requires %d points in %s"] = true
+L["This class's talents aren't available yet. Try again in a moment."] = true
+L["Reset"] = true
+L["My talents"] = true
+L["Your talents"] = true
+L["%s talents"] = true
+L["Loaded from your character. Click to add a point, right-click to take one back."] = true
+L["Click to add a point, right-click to take one back."] = true
 
 -- UI/Theme.lua
 L["Cancel"] = true
