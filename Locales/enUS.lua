@@ -214,6 +214,15 @@ L["Plate"] = true
 L["Misc"] = true
 L["Rank %d"] = true
 
+-- Core/Talents.lua
+L["Talent plan"] = true
+L["Paste a NeedRoll talent plan."] = true
+L["That's too long to be a NeedRoll talent plan."] = true
+L["That isn't a NeedRoll talent plan."] = true
+L["That talent plan is damaged. Copy it again."] = true
+L["That talent plan is for a class NeedRoll can't plan."] = true
+L["That class's talents aren't available yet. Try again in a moment."] = true
+
 -- Core/Tooltip.lua
 L["Trash - %s"] = true
 L["%s - %s"] = true
@@ -365,9 +374,17 @@ L["Hatescreech"] = true
 L["Decrepit Harvester"] = true
 
 -- UI/Classes.lua
-L["Talents"] = true
 L["Planner"] = true
+L["+ New plan"] = true
+L["Talents"] = true
 L["You"] = true
+L["Saved plan"] = true
+L["Rename plan"] = true
+L["A new name for %s."] = true
+L["Type a name."] = true
+L["Rename..."] = true
+L["Delete plan"] = true
+L["Click again to delete"] = true
 
 -- UI/Lists.lua
 L["Classic Raids"] = true
@@ -811,15 +828,23 @@ L["Level %s  ·  %s points  ·  %s left"] = true
 L["Rank %d/%d"] = true
 L["Requires %d points in %s"] = true
 L["This class's talents aren't available yet. Try again in a moment."] = true
+L["Export"] = true
+L["Press Ctrl+C to copy, then paste it in chat. Other NeedRoll players paste it into Import."] = true
+L["Imported a %s plan; %d points broke the talent rules and were left out."] = true
+L["Imported a %s plan."] = true
+L["Import"] = true
+L["Paste a talent plan another NeedRoll player exported."] = true
 L["Reset"] = true
 L["My talents"] = true
 L["Your talents"] = true
 L["%s talents"] = true
+L["Saved plan %s. Click to add a point, right-click to take one back."] = true
 L["Loaded from your character. Click to add a point, right-click to take one back."] = true
 L["Click to add a point, right-click to take one back."] = true
 
 -- UI/Theme.lua
 L["Cancel"] = true
+L["Save"] = true
 
 -- UI/Welcome.lua
 L["Window style and text size live here."] = true
@@ -843,8 +868,6 @@ L["Not in NeedRoll yet"] = true
 L["%d owned"] = true
 L["Quest: %s"] = true
 L["Click to open its source"] = true
-L["Save"] = true
-L["Import"] = true
 L["Paste a sixtyupgrades.com export (Export, then Copy JSON) or a NeedRoll share string."] = true
 L["Paste here (Ctrl+V)"] = true
 L["New list"] = true
@@ -852,17 +875,11 @@ L["Replace current"] = true
 L["Leave out shirt and tabard"] = true
 L["%d found in NeedRoll, %d from dungeons and raids"] = true
 L["Imported %s"] = true
-L["Export"] = true
-L["Press Ctrl+C to copy, then paste it in chat. Other NeedRoll players paste it into Import."] = true
-L["New empty list..."] = true
 L["An empty list, starred items go on it."] = true
-L["Type a name."] = true
-L["Rename..."] = true
 L["Rename list"] = true
-L["A new name for %s."] = true
 L["Another list has that name."] = true
+L["New empty list..."] = true
 L["Delete list"] = true
-L["Click again to delete"] = true
 L["Your wishlists"] = true
 L["Saved for every character on this account. Stars add to the list shown here."] = true
 L["A share string for this list, to paste in chat."] = true
