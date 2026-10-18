@@ -846,6 +846,13 @@ L["Click to add a point, right-click to take one back."] = true
 L["Cancel"] = true
 L["Save"] = true
 
+-- UI/TierSets.lua
+L["Set bonuses"] = true
+L["Remove from wishlist"] = true
+L["Wishlist the set"] = true
+L["Open %s"] = true
+L["%d of %d collected"] = true
+
 -- UI/Welcome.lua
 L["Window style and text size live here."] = true
 L["Or type  /nr style  or  /nr text"] = true
@@ -914,7 +921,6 @@ L["Sort by where"] = true
 L["Chance"] = true
 L["Sort by chance"] = true
 L["Sort by owned"] = true
-L["Remove from wishlist"] = true
 L["Click again to reverse"] = true
 L["%s  +%d more"] = true
 L["Details"] = true
