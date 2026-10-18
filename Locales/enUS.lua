@@ -576,6 +576,7 @@ L["%ds"] = true
 L["%dc"] = true
 L["can't find the %s map."] = true
 L["that map doesn't take pins."] = true
+L["Forever Addon API blocks addons from linking map pins in combat, please try again when you're out of combat."] = true
 L["%s in %s"] = true
 L["%s (inside)"] = true
 L["%s (in %s)"] = true
@@ -884,3 +885,7 @@ L["Details"] = true
 L["This wishlist is empty"] = true
 L["Star gear on any loot list, or Import a sixtyupgrades.com export."] = true
 L["%d from dungeons and raids"] = true
+
+-- UI/WorldMapOverlay.lua
+L["%s located at (%.1f, %.1f) in %s"] = true
+L["Shift-click to post its location in chat"] = true
