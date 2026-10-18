@@ -422,6 +422,10 @@ L["Add to wishlist"] = true
 L["Starred items show on the Wishlist tab"] = true
 L["Go to source"] = true
 L["Click to open this page"] = true
+L["Taught by"] = true
+L["%d more trainer"] = true
+L["%d more trainers"] = true
+L["Show fewer"] = true
 L["Drops from"] = true
 L["World drop  ·  mobs level %d-%d"] = true
 L["World drop"] = true
@@ -702,7 +706,13 @@ L["%d variants"] = true
 L["%d ranks"] = true
 L["%s to %s · %d ranks"] = true
 L["Base"] = true
+L["Clear the skill range"] = true
+L["Required skill %s to %s"] = true
+L["Skill %d–%d"] = true
+L["Skill %d+"] = true
+L["Skill up to %d"] = true
 L["%d recipes"] = true
+L["%s · %s"] = true
 L["%s · %d of %d recipes"] = true
 
 -- UI/Search.lua
