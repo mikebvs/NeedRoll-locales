@@ -487,6 +487,7 @@ L["Bread"] = true
 L["Cheese"] = true
 L["Fruit"] = true
 L["Fungus"] = true
+L["Near my level"] = true
 L["Family %d"] = true
 L["Pet trainer"] = true
 L["Lv %d"] = true
@@ -505,6 +506,7 @@ L["Your pet trainers show on a hunter."] = true
 L["Your pet trainers"] = true
 L["Tame one"] = true
 L["each teaches its family's ranks up to its level"] = true
+L["Select %s to see more"] = true
 L["None of these are rare."] = true
 L["None near your level."] = true
 L["learned by taming"] = true
@@ -518,7 +520,6 @@ L["%d beasts to tame"] = true
 L["%d ability"] = true
 L["%d abilities"] = true
 L["any pet learns them at a pet trainer"] = true
-L["Near my level"] = true
 
 -- UI/Lists.lua
 L["Classic Raids"] = true
