@@ -464,6 +464,7 @@ L["All"] = true
 L["Planner"] = true
 L["+ New plan"] = true
 L["Pets"] = true
+L["Comprehension"] = true
 L["You"] = true
 L["Saved plan"] = true
 L["Rename plan"] = true
@@ -638,6 +639,15 @@ L["Click to show its loot"] = true
 L["Related Quests"] = true
 L["How to summon"] = true
 L["How to summon (spoiler)"] = true
+
+-- UI/MageScrolls.lua
+L["Scrolls"] = true
+L["Any level"] = true
+L["%d scroll"] = true
+L["%d scrolls"] = true
+L["%d in bags"] = true
+L["only a mage can use them"] = true
+L["%d in your bags"] = true
 
 -- UI/MainFrame.lua
 L["No dungeons loaded."] = true
