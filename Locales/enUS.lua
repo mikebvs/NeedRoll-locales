@@ -465,6 +465,7 @@ L["All"] = true
 -- UI/Classes.lua
 L["Planner"] = true
 L["+ New plan"] = true
+L["Class Sets"] = true
 L["Pets"] = true
 L["Comprehension"] = true
 L["You"] = true
