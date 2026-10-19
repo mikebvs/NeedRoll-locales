@@ -998,6 +998,22 @@ L["Wishlist the set"] = true
 L["Open %s"] = true
 L["%d of %d appearances collected"] = true
 
+-- UI/WarlockPets.lua
+L["Demon trainer"] = true
+L["Not learned"] = true
+L["All ranks learned"] = true
+L["comes with the demon"] = true
+L["Summon"] = true
+L["use a grimoire with the demon out to teach it a rank"] = true
+L["%d of %d grimoires"] = true
+L["Your demon trainers show on a warlock."] = true
+L["Your demon trainers"] = true
+L["%s at level %d"] = true
+L["%d grimoire"] = true
+L["%d grimoires"] = true
+L["sold by the demon trainers"] = true
+L["%s summoned"] = true
+
 -- UI/Welcome.lua
 L["Window style and text size live here."] = true
 L["Or type  /nr style  or  /nr text"] = true
