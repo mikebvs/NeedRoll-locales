@@ -219,9 +219,9 @@ L["Talent plan"] = true
 L["Paste a NeedRoll talent plan."] = true
 L["That's too long to be a NeedRoll talent plan."] = true
 L["That isn't a NeedRoll talent plan."] = true
-L["That talent plan is damaged. Copy it again."] = true
 L["That talent plan is for a class NeedRoll can't plan."] = true
 L["That class's talents aren't available yet. Try again in a moment."] = true
+L["That talent plan is damaged. Copy it again."] = true
 
 -- Core/Tooltip.lua
 L["Trash - %s"] = true
@@ -382,6 +382,7 @@ L["Saved plan"] = true
 L["Rename plan"] = true
 L["A new name for %s."] = true
 L["Type a name."] = true
+L["Link in chat"] = true
 L["Rename..."] = true
 L["Delete plan"] = true
 L["Click again to delete"] = true
@@ -823,17 +824,28 @@ L["%s  ·  %s to buy"] = true
 L["%d item"] = true
 L["%d material"] = true
 
+-- UI/TalentLinks.lua
+L["Saved %s, a %s plan; %d points broke the talent rules and were left out."] = true
+L["Saved %s, a %s plan."] = true
+
 -- UI/TalentPlanner.lua
+L["Press Ctrl+C to copy, then paste it in chat. Other NeedRoll players paste it into Import."] = true
+L["NeedRoll couldn't save this plan. Press Ctrl+C to copy it, then paste it into Import later."] = true
+L["WoW: Forever hides addon chat links inside dungeons and raids."] = true
+L["While you're in one, your plan shows as a plain import string others can paste into NeedRoll's Import."] = true
+L["WoW: Forever hides addon chat links in combat."] = true
+L["Until combat ends, your plan shows as a plain import string others can paste into NeedRoll's Import."] = true
 L["Level %s  ·  %s points  ·  %s left"] = true
 L["Rank %d/%d"] = true
 L["Requires %d points in %s"] = true
 L["This class's talents aren't available yet. Try again in a moment."] = true
 L["Export"] = true
-L["Press Ctrl+C to copy, then paste it in chat. Other NeedRoll players paste it into Import."] = true
 L["Imported a %s plan; %d points broke the talent rules and were left out."] = true
 L["Imported a %s plan."] = true
 L["Import"] = true
 L["Paste a talent plan another NeedRoll player exported."] = true
+L["OK"] = true
+L["Link"] = true
 L["Reset"] = true
 L["My talents"] = true
 L["Your talents"] = true
