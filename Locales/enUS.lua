@@ -402,6 +402,7 @@ L["%d point"] = true
 L["%d points"] = true
 L["Click to open %s"] = true
 L["Your trainers"] = true
+L["listed by distance"] = true
 L["%s trainers hidden"] = true
 L["%d more trainer"] = true
 L["%d more trainers"] = true
