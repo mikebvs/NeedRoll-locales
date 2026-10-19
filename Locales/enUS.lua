@@ -832,6 +832,8 @@ L["You also get"] = true
 L["You get"] = true
 L["Alliance only"] = true
 L["Horde only"] = true
+L["%s attunement"] = true
+L["Click to see the %s attunement"] = true
 
 -- UI/Poisons.lua
 L["Skill-ups"] = true
@@ -994,6 +996,8 @@ L["Click to add a point, right-click to take one back."] = true
 -- UI/Theme.lua
 L["Cancel"] = true
 L["Save"] = true
+L["Showing %s"] = true
+L["Click to show %s"] = true
 
 -- UI/TierSets.lua
 L["Set bonuses"] = true
