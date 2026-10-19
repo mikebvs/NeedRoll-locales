@@ -851,7 +851,7 @@ L["Set bonuses"] = true
 L["Remove from wishlist"] = true
 L["Wishlist the set"] = true
 L["Open %s"] = true
-L["%d of %d collected"] = true
+L["%d of %d appearances collected"] = true
 
 -- UI/Welcome.lua
 L["Window style and text size live here."] = true
