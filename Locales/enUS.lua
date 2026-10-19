@@ -502,6 +502,7 @@ L["Rank %d at pet level %d"] = true
 L["Tame a %s of level %d+, use it until learned"] = true
 L["Any pet"] = true
 L["costs from the pet trainers"] = true
+L["Teaches nothing"] = true
 L["Teaches %s"] = true
 L["Your pet trainers show on a hunter."] = true
 L["Your pet trainers"] = true
