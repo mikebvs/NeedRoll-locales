@@ -815,6 +815,7 @@ L["Horde only"] = true
 -- UI/Poisons.lua
 L["Skill-ups"] = true
 L["Can learn"] = true
+L["Known"] = true
 L["%s level %d"] = true
 L["Costs %s"] = true
 L["Poisons  %d / %d"] = true
