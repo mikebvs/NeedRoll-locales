@@ -443,6 +443,7 @@ L["Demonology"] = true
 L["Destruction"] = true
 L["Balance"] = true
 L["Feral Combat"] = true
+L["Trainable"] = true
 L["Levels %d to %d"] = true
 L["Rank 1 from a talent"] = true
 L["Rank 1 from a quest"] = true
