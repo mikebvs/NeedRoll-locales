@@ -267,6 +267,7 @@ L["Overview"] = true
 L["Use the %s at the summoning circle in the Dalaran Sewers."] = true
 L["You need to click the fireplace at his location in Ruins of Lordaeron and survive the waves of enemies before he engages you."] = true
 L["Summoned by using %s in the Chamber of Summoning which can be acquired from the quest %s or by killing %s, %s, or %s in Scholomance to have them drop the blood if you have already completed the quest."] = true
+L["Poisons"] = true
 
 -- Data/Lore.lua
 L["A network of volcanic caves running beneath Orgrimmar. Troggs and the Searing Blade, a cult of Burning Legion worshippers, have taken root under the Horde's capital, and the Warchief wants them rooted out."] = true
@@ -533,6 +534,9 @@ L["Drops from"] = true
 L["World drop  ·  mobs level %d-%d"] = true
 L["World drop"] = true
 L["Sold by"] = true
+L["Nearest vendor"] = true
+L["quest %s"] = true
+L["Quest: %s"] = true
 L["Inside %s"] = true
 L["Inside the dungeon"] = true
 L["Click to pin the entrance on your map"] = true
@@ -621,6 +625,8 @@ L["Shopping list"] = true
 L["Adds %s and its materials to the Shopping List tab."] = true
 L["On your list: %d"] = true
 L["On shopping list: %dx %s"] = true
+L["Add another  ·  %d on list"] = true
+L["Add to shopping list"] = true
 L["Map"] = true
 L["Shows where %s is on the map."] = true
 L["Resize"] = true
@@ -653,8 +659,6 @@ L["1 ability"] = true
 L["%d abilities"] = true
 L["No matching recipes"] = true
 L["Clear the filter to see every recipe"] = true
-L["Add another  ·  %d on list"] = true
-L["Add to shopping list"] = true
 L["world map"] = true
 
 -- UI/MinimapButton.lua
@@ -668,7 +672,6 @@ L["Accepted"] = true
 L["Prior Step"] = true
 L["Incomplete"] = true
 L["Starts inside the dungeon"] = true
-L["quest %s"] = true
 L["In log"] = true
 L["Not started"] = true
 L["Show all %d steps"] = true
@@ -770,9 +773,14 @@ L["You get"] = true
 L["Alliance only"] = true
 L["Horde only"] = true
 
--- UI/RecipeBand.lua
+-- UI/Poisons.lua
 L["Skill-ups"] = true
 L["Can learn"] = true
+L["%s level %d"] = true
+L["Costs %s"] = true
+L["Poisons  %d / %d"] = true
+
+-- UI/RecipeBand.lua
 L["Hide grey"] = true
 L["Cloak"] = true
 L["Bracer"] = true
@@ -954,7 +962,6 @@ L["PvP vendors"] = true
 L["Faction vendors"] = true
 L["Not in NeedRoll yet"] = true
 L["%d owned"] = true
-L["Quest: %s"] = true
 L["Click to open its source"] = true
 L["Paste a sixtyupgrades.com export (Export, then Copy JSON) or a NeedRoll share string."] = true
 L["Paste here (Ctrl+V)"] = true
