@@ -981,6 +981,7 @@ L["Until combat ends, your plan shows as a plain import string others can paste 
 L["Level %s  ·  %s points  ·  %s left"] = true
 L["Rank %d/%d"] = true
 L["Requires %d points in %s"] = true
+L["or %d points in %s"] = true
 L["This class's talents aren't available yet. Try again in a moment."] = true
 L["Export"] = true
 L["Imported a %s plan; %d points broke the talent rules and were left out."] = true
