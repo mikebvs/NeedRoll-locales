@@ -741,6 +741,7 @@ L["Show all %d steps"] = true
 L["can't find the %s map."] = true
 L["that map doesn't take pins."] = true
 L["Forever Addon API blocks addons from linking map pins in combat, please try again when you're out of combat."] = true
+L["Pinned %s on your %s map."] = true
 L["%s in %s"] = true
 L["%s (inside)"] = true
 L["%s (in %s)"] = true
