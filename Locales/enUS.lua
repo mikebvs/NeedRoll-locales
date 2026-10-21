@@ -725,6 +725,8 @@ L["Clear the filter to see every recipe"] = true
 L["world map"] = true
 
 -- UI/MinimapButton.lua
+L["Left-click: Open NeedRoll"] = true
+L["Right-click: Open NeedRoll Settings"] = true
 L["Drag to move."] = true
 L["Minimap button hidden. Type /nr minimap to show it again."] = true
 L["Minimap button shown."] = true
