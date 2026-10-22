@@ -279,7 +279,7 @@ L["Quel'Serrar"] = true
 L["Taming the Beast"] = true
 L["Rhok'delar"] = true
 L["The Hunter's Charm"] = true
-L["Poisons"] = true
+L["Poisons/Thistle Tea"] = true
 L["Blade of Cunning"] = true
 L["Alther's Mill"] = true
 L["Plundering the Plunderers"] = true
@@ -336,6 +336,7 @@ L["a weapon of your choice"] = true
 L["Use the %s at the summoning circle in the Dalaran Sewers."] = true
 L["You need to click the fireplace at his location in Ruins of Lordaeron and survive the waves of enemies before he engages you."] = true
 L["Summoned by using %s in the Chamber of Summoning which can be acquired from the quest %s or by killing %s, %s, or %s in Scholomance to have them drop the blood if you have already completed the quest."] = true
+L["Poisons"] = true
 
 -- Data/Lore.lua
 L["A network of volcanic caves running beneath Orgrimmar. Troggs and the Searing Blade, a cult of Burning Legion worshippers, have taken root under the Horde's capital, and the Warchief wants them rooted out."] = true
