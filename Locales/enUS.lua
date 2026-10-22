@@ -264,6 +264,10 @@ L["Imported"] = true
 
 -- Data/Data.lua
 L["Overview"] = true
+L["Defensive Stance"] = true
+L["Brutal Armor"] = true
+L["Fire Hardened Armor"] = true
+L["Berserker Stance"] = true
 L["Use the %s at the summoning circle in the Dalaran Sewers."] = true
 L["You need to click the fireplace at his location in Ruins of Lordaeron and survive the waves of enemies before he engages you."] = true
 L["Summoned by using %s in the Chamber of Summoning which can be acquired from the quest %s or by killing %s, %s, or %s in Scholomance to have them drop the blood if you have already completed the quest."] = true
@@ -533,6 +537,8 @@ L["Included In"] = true
 L["Scarce Reagents"] = true
 L["Recipes"] = true
 L["Other classes"] = true
+L["%s (Rank %d)"] = true
+L["%s and %s"] = true
 L["%s quests"] = true
 L["Click to see %s quests"] = true
 L["Level ??"] = true
@@ -749,7 +755,6 @@ L["Pinned %s on your %s map."] = true
 L["%s in %s"] = true
 L["%s (inside)"] = true
 L["%s (in %s)"] = true
-L["%s and %s"] = true
 L["%s or %s"] = true
 L["adventurer"] = true
 L["Armory"] = true
