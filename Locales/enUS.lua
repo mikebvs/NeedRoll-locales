@@ -303,6 +303,7 @@ L["Nether-lace Garment"] = true
 L["Celestial Power"] = true
 L["Magecraft"] = true
 L["Polymorph: Pig"] = true
+L["Summon Imp"] = true
 L["Summon Voidwalker"] = true
 L["Summon Succubus"] = true
 L["Summon Felhunter"] = true
