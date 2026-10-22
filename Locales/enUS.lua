@@ -275,6 +275,7 @@ L["Verigan's Fist"] = true
 L["The Moonsilver Blade"] = true
 L["Forging the Mightstone"] = true
 L["Summon Charger"] = true
+L["Quel'Serrar"] = true
 L["Taming the Beast"] = true
 L["Rhok'delar"] = true
 L["The Hunter's Charm"] = true
