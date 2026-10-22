@@ -1001,6 +1001,7 @@ L["Then rewards %s"] = true
 L["May not be final for WoW: Forever"] = true
 L["or"] = true
 L["Rewards %s"] = true
+L["In this dungeon"] = true
 L["or %d other"] = true
 L["or %d others"] = true
 L["Optional"] = true
