@@ -1205,6 +1205,12 @@ L["It's fully opt-in, and you can change it any time in NeedRoll's Settings."] =
 L["Credit my finds by character name (otherwise they're stored anonymously)"] = true
 L["Turn off"] = true
 L["Keep sharing"] = true
+L["Help translate NeedRoll"] = true
+L["NeedRoll's translations are a first pass, so some text may read oddly or still be in English. Any and all help with translations is much appreciated! Suggest fixes on our Discord or on the NeedRoll-locales GitHub page."] = true
+L["Click a link and press Ctrl+C to copy it, then paste it in your browser."] = true
+L["Discord"] = true
+L["GitHub"] = true
+L["Got it"] = true
 
 -- UI/Wishlist.lua
 L["Crafted"] = true
