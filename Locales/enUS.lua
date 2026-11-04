@@ -94,6 +94,7 @@ L["Leatherworking"] = true
 L["Mining"] = true
 L["Skinning"] = true
 L["Tailoring"] = true
+L["Camping"] = true
 L["Abyssal Council"] = true
 L["Ahn'Qiraj Gates"] = true
 L["Ahn'Qiraj Sets"] = true
@@ -261,6 +262,37 @@ L["That doesn't look like a sixtyupgrades.com export."] = true
 L["That export has no gear in it."] = true
 L["Imported from sixtyupgrades"] = true
 L["Imported"] = true
+
+-- Data/Camping.lua
+L["cooking fire with room for 3 camp features"] = true
+L["+%d Strength"] = true
+L["sells reagents"] = true
+L["+%d mana every 5 sec"] = true
+L["+%d Attack Power"] = true
+L["+%d Intellect"] = true
+L["+8% to all stats"] = true
+L["+%d Stamina"] = true
+L["+%d Spirit"] = true
+L["+%d Armor, +13 to all stats and +22 to all resistances"] = true
+L["Rested XP up to 5% of a level"] = true
+L["+2% critical strike chance"] = true
+L["cooking fire with room for 5 camp features"] = true
+L["healing potions and anti-venom"] = true
+L["makes certain reagents"] = true
+L["grows a mining node"] = true
+L["repairs gear and sells reagents"] = true
+L["food that raises Stamina"] = true
+L["grows herbs from seeds"] = true
+L["uncommon fish and fishing lures"] = true
+L["Track Beasts"] = true
+L["better disenchanting"] = true
+L["needed for some recipes"] = true
+L["cooking fire with room for 10 camp features"] = true
+L["holds 1 trap"] = true
+L["multiplies and combines seeds"] = true
+L["healing potions and poultices"] = true
+L["rare fish and fishing lures"] = true
+L["needed for the top cooking recipes"] = true
 
 -- Data/Data.lua
 L["Overview"] = true
@@ -948,6 +980,7 @@ L["Nothing gives skill-ups"] = true
 L["%s gives skill now"] = true
 L["%s give skill now"] = true
 L["Beasts level %d–%d give skill now"] = true
+L["What each profession builds at a campsite, yours first"] = true
 L["Gathering profession"] = true
 L["Not learned"] = true
 L["the only trainer"] = true
@@ -982,6 +1015,13 @@ L["Specialization"] = true
 L["pick one"] = true
 L["teaches %s"] = true
 L["%s %s quests"] = true
+L["Taught by trainers"] = true
+L["sold by %s"] = true
+L["drops from %s"] = true
+L["where it comes from isn't known yet"] = true
+L["%d camp feature"] = true
+L["%d camp features"] = true
+L["Skill %d"] = true
 
 -- UI/Questlines.lua
 L["%s to %s"] = true
