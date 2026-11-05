@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("zhCN")
 if not L then return end
@@ -99,6 +99,7 @@ L["Leatherworking"] = "制皮"
 L["Mining"] = "采矿"
 L["Skinning"] = "剥皮"
 L["Tailoring"] = "裁缝"
+L["Camping"] = "露营"
 L["Abyssal Council"] = "深渊议会"
 L["Ahn'Qiraj Gates"] = "安其拉之门"
 L["Ahn'Qiraj Sets"] = "安其拉套装"
@@ -266,6 +267,37 @@ L["That doesn't look like a sixtyupgrades.com export."] = "这看起来不像six
 L["That export has no gear in it."] = "该导出内容中没有装备。"
 L["Imported from sixtyupgrades"] = "从sixtyupgrades导入"
 L["Imported"] = "已导入"
+
+-- Data/Camping.lua
+L["cooking fire with room for 3 camp features"] = "可容纳3个营地设施的烹饪火堆"
+L["+%d Strength"] = "+%d 力量"
+L["sells reagents"] = "出售材料"
+L["+%d mana every 5 sec"] = "每5秒恢复%d点法力值"
+L["+%d Attack Power"] = "+%d 攻击强度"
+L["+%d Intellect"] = "+%d 智力"
+L["+8% to all stats"] = "所有属性提高8%"
+L["+%d Stamina"] = "+%d 耐力"
+L["+%d Spirit"] = "+%d 精神"
+L["+%d Armor, +13 stats, +22 resistances"] = "+%d 护甲，+13 属性，+22 抗性"
+L["Rested XP up to 5% of a level"] = "休息经验值最多为一级的5%"
+L["+2% critical strike chance"] = "爆击几率提高2%"
+L["cooking fire with room for 5 camp features"] = "可容纳5个营地设施的烹饪火堆"
+L["healing potions and anti-venom"] = "治疗药水和抗毒药剂"
+L["makes certain reagents"] = "制作特定材料"
+L["grows a mining node"] = "生长出一个矿脉"
+L["repairs gear and sells reagents"] = "修理装备并出售材料"
+L["food that raises Stamina"] = "提高耐力的食物"
+L["grows herbs from seeds"] = "用种子种植草药"
+L["uncommon fish and fishing lures"] = "优秀的鱼和鱼饵"
+L["Track Beasts"] = "追踪野兽"
+L["better disenchanting"] = "更好的分解"
+L["needed for some recipes"] = "部分配方需要"
+L["cooking fire with room for 10 camp features"] = "可容纳10个营地设施的烹饪火堆"
+L["holds 1 trap"] = "可放置1个陷阱"
+L["multiplies and combines seeds"] = "繁殖并组合种子"
+L["healing potions and poultices"] = "治疗药水和药膏"
+L["rare fish and fishing lures"] = "稀有的鱼和鱼饵"
+L["needed for the top cooking recipes"] = "顶级烹饪配方需要"
 
 -- Data/Data.lua
 L["Overview"] = "概览"
@@ -952,6 +984,7 @@ L["Nothing gives skill-ups"] = "没有可提升技能的"
 L["%s gives skill now"] = "%s 当前可提升技能"
 L["%s give skill now"] = "%s 当前可提升技能"
 L["Beasts level %d–%d give skill now"] = "%d–%d 级野兽当前可提升技能"
+L["What each profession builds at a campsite, yours first"] = "各专业能在营地建造的设施，你的专业优先"
 L["Gathering profession"] = "采集专业"
 
 -- UI/RecipeBand.lua
@@ -1004,6 +1037,11 @@ L["Specialization"] = "专精"
 L["pick one"] = "选择一个"
 L["teaches %s"] = "教授%s"
 L["%s %s quests"] = "%s%s任务"
+L["Taught by trainers"] = "由训练师传授"
+L["where it comes from isn't known yet"] = "来源尚不明确"
+L["%d camp feature"] = "%d个营地设施"
+L["%d camp features"] = "%d个营地设施"
+L["Skill %d"] = "技能%d"
 L["Skill %d+"] = "技能%d+"
 L["Skill up to %d"] = "技能最高%d"
 L["%d recipes"] = "%d个配方"

@@ -34,7 +34,9 @@ DEFAULT = pathlib.Path(__file__).resolve().parent.parent / "NeedRoll" / "Locales
 STRING = r'"((?:[^"\\\n]|\\["\\n])*)"'
 PHRASE = re.compile(r'^L\[' + STRING + r'\] = ' + STRING + r'$')
 ENGLISH = re.compile(r'^L\[' + STRING + r'\] = true$')
-FORMAT = re.compile(r'%(?:%|[-+ #0]*\d*(?:\.\d+)?[a-zA-Z])')
+# A format specifier such as %s, %d or %.1f. A space after % is read as
+# plain text ("+8% to all stats"), not as Lua's little-used space flag.
+FORMAT = re.compile(r'%(?:%|[-+#0]*\d*(?:\.\d+)?[a-zA-Z])')
 
 
 def header(locale):

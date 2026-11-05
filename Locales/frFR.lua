@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("frFR")
 if not L then return end
@@ -99,6 +99,7 @@ L["Leatherworking"] = "Travail du cuir"
 L["Mining"] = "Minage"
 L["Skinning"] = "Dépeçage"
 L["Tailoring"] = "Couture"
+L["Camping"] = "Camping"
 L["Abyssal Council"] = "Conseil abyssal"
 L["Ahn'Qiraj Gates"] = "Portes d'Ahn'Qiraj"
 L["Ahn'Qiraj Sets"] = "Ensembles d'Ahn'Qiraj"
@@ -266,6 +267,37 @@ L["That doesn't look like a sixtyupgrades.com export."] = "Cela ne ressemble pas
 L["That export has no gear in it."] = "Cet export ne contient aucun équipement."
 L["Imported from sixtyupgrades"] = "Importée de sixtyupgrades"
 L["Imported"] = "Importée"
+
+-- Data/Camping.lua
+L["cooking fire with room for 3 camp features"] = "feu de cuisine avec de la place pour 3 aménagements de camp"
+L["+%d Strength"] = "+%d Force"
+L["sells reagents"] = "vend des composants"
+L["+%d mana every 5 sec"] = "+%d points de mana toutes les 5 s"
+L["+%d Attack Power"] = "+%d puissance d'attaque"
+L["+%d Intellect"] = "+%d Intelligence"
+L["+8% to all stats"] = "+8% à toutes les caractéristiques"
+L["+%d Stamina"] = "+%d Endurance"
+L["+%d Spirit"] = "+%d Esprit"
+L["+%d Armor, +13 stats, +22 resistances"] = "+%d armure, +13 caractéristiques, +22 résistances"
+L["Rested XP up to 5% of a level"] = "XP de repos jusqu'à 5% d'un niveau"
+L["+2% critical strike chance"] = "+2% de chances de coup critique"
+L["cooking fire with room for 5 camp features"] = "feu de cuisine avec de la place pour 5 aménagements de camp"
+L["healing potions and anti-venom"] = "potions de soins et anti-venin"
+L["makes certain reagents"] = "fabrique certains composants"
+L["grows a mining node"] = "fait pousser un filon"
+L["repairs gear and sells reagents"] = "répare l'équipement et vend des composants"
+L["food that raises Stamina"] = "nourriture qui augmente l'Endurance"
+L["grows herbs from seeds"] = "fait pousser des herbes à partir de graines"
+L["uncommon fish and fishing lures"] = "poissons inhabituels et appâts"
+L["Track Beasts"] = "Pistage des bêtes"
+L["better disenchanting"] = "meilleur désenchantement"
+L["needed for some recipes"] = "requis pour certaines recettes"
+L["cooking fire with room for 10 camp features"] = "feu de cuisine avec de la place pour 10 aménagements de camp"
+L["holds 1 trap"] = "peut contenir 1 piège"
+L["multiplies and combines seeds"] = "multiplie et combine les graines"
+L["healing potions and poultices"] = "potions de soins et cataplasmes"
+L["rare fish and fishing lures"] = "poissons rares et appâts"
+L["needed for the top cooking recipes"] = "requis pour les meilleures recettes de cuisine"
 
 -- Data/Data.lua
 L["Overview"] = "Aperçu"
@@ -952,6 +984,7 @@ L["Nothing gives skill-ups"] = "Rien ne donne de points de compétence"
 L["%s gives skill now"] = "%s donne de la compétence maintenant"
 L["%s give skill now"] = "%s donnent de la compétence maintenant"
 L["Beasts level %d–%d give skill now"] = "Les bêtes de niveau %d–%d donnent de la compétence maintenant"
+L["What each profession builds at a campsite, yours first"] = "Ce que chaque métier construit au camp, les vôtres d'abord"
 L["Gathering profession"] = "Métier de récolte"
 
 -- UI/RecipeBand.lua
@@ -1004,6 +1037,11 @@ L["Specialization"] = "Spécialisation"
 L["pick one"] = "en choisir une"
 L["teaches %s"] = "enseigne %s"
 L["%s %s quests"] = "%s : quêtes de %s"
+L["Taught by trainers"] = "Enseigné par les maîtres"
+L["where it comes from isn't known yet"] = "origine encore inconnue"
+L["%d camp feature"] = "%d aménagement de camp"
+L["%d camp features"] = "%d aménagements de camp"
+L["Skill %d"] = "Compétence %d"
 L["Skill %d+"] = "Compétence %d+"
 L["Skill up to %d"] = "Compétence jusqu'à %d"
 L["%d recipes"] = "%d recettes"

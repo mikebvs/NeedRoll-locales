@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("koKR")
 if not L then return end
@@ -99,6 +99,7 @@ L["Leatherworking"] = "가죽세공"
 L["Mining"] = "채광"
 L["Skinning"] = "무두질"
 L["Tailoring"] = "재봉술"
+L["Camping"] = "야영"
 L["Abyssal Council"] = "심연의 의회"
 L["Ahn'Qiraj Gates"] = "안퀴라즈 성문"
 L["Ahn'Qiraj Sets"] = "안퀴라즈 세트"
@@ -266,6 +267,37 @@ L["That doesn't look like a sixtyupgrades.com export."] = "sixtyupgrades.com 내
 L["That export has no gear in it."] = "그 내보내기에는 장비가 없습니다."
 L["Imported from sixtyupgrades"] = "sixtyupgrades에서 가져옴"
 L["Imported"] = "가져옴"
+
+-- Data/Camping.lua
+L["cooking fire with room for 3 camp features"] = "야영 시설 3개를 놓을 수 있는 요리용 불"
+L["+%d Strength"] = "힘 +%d"
+L["sells reagents"] = "재료 판매"
+L["+%d mana every 5 sec"] = "5초마다 마나 +%d"
+L["+%d Attack Power"] = "전투력 +%d"
+L["+%d Intellect"] = "지능 +%d"
+L["+8% to all stats"] = "모든 능력치 +8%"
+L["+%d Stamina"] = "체력 +%d"
+L["+%d Spirit"] = "정신력 +%d"
+L["+%d Armor, +13 stats, +22 resistances"] = "방어도 +%d, 능력치 +13, 저항 +22"
+L["Rested XP up to 5% of a level"] = "휴식 경험치 최대 레벨의 5%"
+L["+2% critical strike chance"] = "치명타 확률 +2%"
+L["cooking fire with room for 5 camp features"] = "야영 시설 5개를 놓을 수 있는 요리용 불"
+L["healing potions and anti-venom"] = "치유 물약과 해독제"
+L["makes certain reagents"] = "특정 재료 제작"
+L["grows a mining node"] = "채광 광맥 생성"
+L["repairs gear and sells reagents"] = "장비 수리 및 재료 판매"
+L["food that raises Stamina"] = "체력을 올려 주는 음식"
+L["grows herbs from seeds"] = "씨앗으로 약초 재배"
+L["uncommon fish and fishing lures"] = "고급 물고기와 낚시 미끼"
+L["Track Beasts"] = "야수 추적"
+L["better disenchanting"] = "마력 추출 향상"
+L["needed for some recipes"] = "일부 제조법에 필요"
+L["cooking fire with room for 10 camp features"] = "야영 시설 10개를 놓을 수 있는 요리용 불"
+L["holds 1 trap"] = "덫 1개 설치 가능"
+L["multiplies and combines seeds"] = "씨앗 증식 및 조합"
+L["healing potions and poultices"] = "치유 물약과 습포제"
+L["rare fish and fishing lures"] = "희귀 물고기와 낚시 미끼"
+L["needed for the top cooking recipes"] = "최상급 요리 제조법에 필요"
 
 -- Data/Data.lua
 L["Overview"] = "개요"
@@ -952,6 +984,7 @@ L["Nothing gives skill-ups"] = "숙련도가 오르는 것 없음"
 L["%s gives skill now"] = "%s: 지금 숙련도 상승"
 L["%s give skill now"] = "%s: 지금 숙련도 상승"
 L["Beasts level %d–%d give skill now"] = "%d–%d레벨 야수: 지금 숙련도 상승"
+L["What each profession builds at a campsite, yours first"] = "각 전문 기술이 야영지에 짓는 것, 내 것 먼저"
 L["Gathering profession"] = "채집 전문 기술"
 
 -- UI/RecipeBand.lua
@@ -1004,6 +1037,11 @@ L["Specialization"] = "전문화"
 L["pick one"] = "하나 선택"
 L["teaches %s"] = "%s 가르침"
 L["%s %s quests"] = "%s %s 퀘스트"
+L["Taught by trainers"] = "기술 전문가에게 배움"
+L["where it comes from isn't known yet"] = "출처가 아직 알려지지 않음"
+L["%d camp feature"] = "야영 시설 %d개"
+L["%d camp features"] = "야영 시설 %d개"
+L["Skill %d"] = "숙련도 %d"
 L["Skill %d+"] = "숙련도 %d+"
 L["Skill up to %d"] = "숙련도 %d까지"
 L["%d recipes"] = "제조법 %d개"
