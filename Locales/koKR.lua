@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("koKR")
 if not L then return end
@@ -850,6 +850,16 @@ L["Not started"] = "시작 안 함"
 L["Show all %d steps"] = "%d단계 모두 보기"
 L["can't find the %s map."] = "%s 지도를 찾을 수 없습니다."
 L["that map doesn't take pins."] = "그 지도에는 표시를 할 수 없습니다."
+L["Northwest %s"] = "%s 북서부"
+L["Northern %s"] = "%s 북부"
+L["Northeast %s"] = "%s 북동부"
+L["Western %s"] = "%s 서부"
+L["Central %s"] = "%s 중부"
+L["Eastern %s"] = "%s 동부"
+L["Southwest %s"] = "%s 남서부"
+L["Southern %s"] = "%s 남부"
+L["Southeast %s"] = "%s 남동부"
+L["Click to pin on your map (%s [%.1f, %.1f])"] = "클릭하여 지도에 표시 (%s [%.1f, %.1f])"
 L["Forever Addon API blocks addons from linking map pins in combat, please try again when you're out of combat."] = "Forever Addon API는 전투 중 애드온의 지도 핀 링크를 차단합니다. 전투가 끝난 후 다시 시도하세요."
 L["Forever Addon API blocks addons from opening the map in combat, please try again when you're out of combat."] = "Forever Addon API는 전투 중 애드온이 지도를 여는 것을 차단합니다. 전투가 끝난 후 다시 시도하세요."
 L["Pinned %s on your %s map."] = "%s을(를) %s 지도에 표시했습니다."

@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("frFR")
 if not L then return end
@@ -850,6 +850,16 @@ L["Not started"] = "Pas commencée"
 L["Show all %d steps"] = "Afficher les %d étapes"
 L["can't find the %s map."] = "carte %s introuvable."
 L["that map doesn't take pins."] = "cette carte n'accepte pas de marqueurs."
+L["Northwest %s"] = "%s (nord-ouest)"
+L["Northern %s"] = "%s (nord)"
+L["Northeast %s"] = "%s (nord-est)"
+L["Western %s"] = "%s (ouest)"
+L["Central %s"] = "%s (centre)"
+L["Eastern %s"] = "%s (est)"
+L["Southwest %s"] = "%s (sud-ouest)"
+L["Southern %s"] = "%s (sud)"
+L["Southeast %s"] = "%s (sud-est)"
+L["Click to pin on your map (%s [%.1f, %.1f])"] = "Cliquez pour marquer sur votre carte (%s [%.1f, %.1f])"
 L["Forever Addon API blocks addons from linking map pins in combat, please try again when you're out of combat."] = "La Forever Addon API empêche les addons de lier des marqueurs de carte en combat, veuillez réessayer une fois hors combat."
 L["Forever Addon API blocks addons from opening the map in combat, please try again when you're out of combat."] = "La Forever Addon API empêche les addons d'ouvrir la carte en combat, veuillez réessayer une fois hors combat."
 L["Pinned %s on your %s map."] = "%s épinglé sur votre carte de %s."
