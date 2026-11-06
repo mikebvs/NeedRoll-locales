@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("ruRU")
 if not L then return end
@@ -850,6 +850,16 @@ L["Not started"] = "Не начато"
 L["Show all %d steps"] = "Показать все шаги (%d)"
 L["can't find the %s map."] = "не удается найти карту «%s»."
 L["that map doesn't take pins."] = "на этой карте нельзя ставить метки."
+L["Northwest %s"] = "%s, северо-запад"
+L["Northern %s"] = "%s, север"
+L["Northeast %s"] = "%s, северо-восток"
+L["Western %s"] = "%s, запад"
+L["Central %s"] = "%s, центр"
+L["Eastern %s"] = "%s, восток"
+L["Southwest %s"] = "%s, юго-запад"
+L["Southern %s"] = "%s, юг"
+L["Southeast %s"] = "%s, юго-восток"
+L["Click to pin on your map (%s [%.1f, %.1f])"] = "Нажмите, чтобы отметить на карте (%s [%.1f, %.1f])"
 L["Forever Addon API blocks addons from linking map pins in combat, please try again when you're out of combat."] = "Forever Addon API не дает аддонам ссылаться на метки карты в бою. Попробуйте снова вне боя."
 L["Forever Addon API blocks addons from opening the map in combat, please try again when you're out of combat."] = "Forever Addon API не дает аддонам открывать карту в бою. Попробуйте снова вне боя."
 L["Pinned %s on your %s map."] = "%s: метка на вашей карте (%s)."

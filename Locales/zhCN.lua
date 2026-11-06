@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("zhCN")
 if not L then return end
@@ -850,6 +850,16 @@ L["Not started"] = "未开始"
 L["Show all %d steps"] = "显示全部%d步"
 L["can't find the %s map."] = "找不到%s地图。"
 L["that map doesn't take pins."] = "该地图无法标记。"
+L["Northwest %s"] = "%s西北部"
+L["Northern %s"] = "%s北部"
+L["Northeast %s"] = "%s东北部"
+L["Western %s"] = "%s西部"
+L["Central %s"] = "%s中部"
+L["Eastern %s"] = "%s东部"
+L["Southwest %s"] = "%s西南部"
+L["Southern %s"] = "%s南部"
+L["Southeast %s"] = "%s东南部"
+L["Click to pin on your map (%s [%.1f, %.1f])"] = "点击在地图上标记（%s [%.1f, %.1f]）"
 L["Forever Addon API blocks addons from linking map pins in combat, please try again when you're out of combat."] = "Forever Addon API禁止插件在战斗中链接地图标记，请脱离战斗后再试。"
 L["Forever Addon API blocks addons from opening the map in combat, please try again when you're out of combat."] = "Forever Addon API禁止插件在战斗中打开地图，请脱离战斗后再试。"
 L["Pinned %s on your %s map."] = "%s 已标记在你的%s地图上。"
