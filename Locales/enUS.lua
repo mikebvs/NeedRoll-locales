@@ -471,6 +471,7 @@ L["Earthseer Farsen"] = true
 L["Afadra Dunwall"] = true
 L["Morbin Lightbane"] = true
 L["Pexmit"] = true
+L["Zalfan Moonshadow"] = true
 L["Image of Archmage Modera"] = true
 L["Zul'Alai"] = true
 L["Var'Taka"] = true
