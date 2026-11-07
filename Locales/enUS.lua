@@ -22,9 +22,9 @@ L["Factions"] = true
 L["Reputation rewards"] = true
 L["Collections"] = true
 L["Tier sets, mounts, pets and more"] = true
-L["Library Books"] = true
+L["Library"] = true
 L["Where every library book is, and which ones you've handed in"] = true
-L["The last list under Collections: each book's spot as a map pin, whether you hold it or handed it in, and the reward quests at 10, 20 and 25 books."] = true
+L["Each book's spot as a map pin, whether you hold it or handed it in, and the reward quests at 10, 20 and 25 books."] = true
 L["Professions"] = true
 L["Recipes, materials and where to learn them"] = true
 L["Professions Icons"] = true
@@ -739,6 +739,7 @@ L["%s, %s"] = true
 L["Hand them in to %s"] = true
 L["%d books for the %s"] = true
 L["Group by zone"] = true
+L["Library Books"] = true
 
 -- UI/Lists.lua
 L["Classic Raids"] = true
@@ -994,7 +995,6 @@ L["Dragonspire Hall"] = true
 L["Excavation Site"] = true
 L["Graveyard"] = true
 L["Hall of Binding"] = true
-L["Library"] = true
 L["Unit %s"] = true
 L["Anywhere in %s"] = true
 L["Previous: %s"] = true
