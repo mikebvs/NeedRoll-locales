@@ -702,6 +702,8 @@ L["%d beasts to tame"] = true
 L["%d ability"] = true
 L["%d abilities"] = true
 L["any pet learns them at a pet trainer"] = true
+L["%s and %s"] = true
+L["item %d"] = true
 
 -- UI/LibraryBooks.lua
 L["All books"] = true
@@ -710,9 +712,7 @@ L["Handed in"] = true
 L["In bags"] = true
 L["In bank"] = true
 L["Not found"] = true
-L["%s and %s"] = true
-L["item %d"] = true
-L["Inside Blackrock Mountain: click to pin its way in"] = true
+L["Inside %s: click to pin its way in"] = true
 L["Hand in %d books to the librarian"] = true
 L["Its rewards need level %d"] = true
 L["Choose one:"] = true
