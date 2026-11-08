@@ -1,10 +1,10 @@
--- Spanish (esES) translations of NeedRoll's own text.
--- This file comes from https://github.com/mikebvs/NeedRoll-Locales, where
--- players send translations; edit it there, not here. One line per phrase,
--- the English text (as listed in enUS.lua) on the left:
---     L["Shopping List"] = "..."
--- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08); corrections are welcome.
+-- Traducción al español de España (esES) de los textos de NeedRoll.
+-- Este archivo procede de https://github.com/mikebvs/NeedRoll-Locales, donde
+-- los jugadores envían sus traducciones. Las correcciones se hacen en ese repositorio.
+-- Escribe una frase por línea, con el texto en inglés de enUS.lua a la izquierda.
+--     L["Shopping List"] = "Lista de la compra"
+-- Las frases que falten se mostrarán en inglés.
+-- Los primeros borradores se generaron automáticamente (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07 y 2026-11-08). Se agradecen las correcciones.
 local _, ns = ...
 local L = ns.Phrases("esES")
 if not L then return end
@@ -26,13 +26,13 @@ L["Honor and battleground rewards"] = "Recompensas de honor y de campos de batal
 L["Factions"] = "Facciones"
 L["Reputation rewards"] = "Recompensas de reputación"
 L["Collections"] = "Colecciones"
-L["Tier sets, mounts, pets and more"] = "Conjuntos de tier, monturas, mascotas y más"
+L["Tier sets, mounts, pets and more"] = "Conjuntos de banda, monturas, mascotas y más"
 L["Professions"] = "Profesiones"
 L["Recipes, materials and where to learn them"] = "Recetas, materiales y dónde aprenderlas"
 L["Professions Icons"] = "Iconos de profesiones"
 L["Item icons beside recipes in the Professions list"] = "Iconos de objeto junto a las recetas en la lista de Profesiones"
 L["Shows what each recipe makes, in a ring left of its name. Hover one for the item's tooltip."] = "Muestra lo que crea cada receta en un círculo a la izquierda de su nombre. Pasa el ratón por encima para ver la descripción del objeto."
-L["Shopping List"] = "Lista de compra"
+L["Shopping List"] = "Lista de la compra"
 L["Materials to buy for your crafts"] = "Materiales que comprar para tus creaciones"
 L["Wishlist"] = "Lista de deseos"
 L["Gear you want, starred on loot lists"] = "El equipo que quieres, marcado en las listas de botín"
@@ -86,7 +86,7 @@ L["The Drowned City"] = "La Ciudad Ahogada"
 L["Krol'dok Stronghold"] = "Bastión Krol'dok"
 L["Alcaz Prison"] = "Prisión de Alcaz"
 L["Blackmaw Hold"] = "Bastión Fauceduna"
-L["Shaper's Terrace"] = "Terraza del Maker"
+L["Shaper's Terrace"] = "Bancal del Creador"
 L["The Barrow Deeps"] = "Las Profundidades del Túmulo"
 L["Hyjal Summit"] = "Cima Hyjal"
 L["Alchemy"] = "Alquimia"
@@ -124,7 +124,7 @@ L["Noblegarden"] = "Jardín Noble"
 L["Other Sets"] = "Otros conjuntos"
 L["Scourge Invasion"] = "Invasión de la Plaga"
 L["Tabards"] = "Tabardos"
-L["Tier Sets"] = "Conjuntos de tier"
+L["Tier Sets"] = "Conjuntos de banda"
 L["World Epics"] = "Épicos del mundo"
 L["Zul'Gurub Sets"] = "Conjuntos de Zul'Gurub"
 L["Honor Ranks"] = "Rangos de honor"
@@ -195,9 +195,9 @@ L["WANTED"] = "SE BUSCA"
 L["Remains of a Paladin"] = "Restos de un paladín"
 L["Talvash's Scrying Bowl"] = "Cuenco de escrutinio de Talvash"
 L["The Discs of Norgannon"] = "Los Discos de Norgannon"
-L["The Sparklematic 5200"] = "The Sparklematic 5200"
-L["Optional. Without it you reach the Core through Blackrock Depths; with it, Lothos Riftwaker teleports you in."] = "Opcional. Sin ella llegas al Núcleo por las Profundidades de Roca Negra; con ella, Lothos Levantagrietas te teletransporta dentro."
-L["Finishing the chain gives you the {item:16309:Drakefire Amulet}, which opens Onyxia's Lair."] = "Al completar la cadena obtienes el {item:16309:Drakefire Amulet}, que abre la Guarida de Onyxia."
+L["The Sparklematic 5200"] = "El Destellamatic 5200"
+L["Optional. Without it you reach the Core through Blackrock Depths; with it, Lothos Riftwaker teleports you in."] = "La armonización es opcional. Puedes entrar al Núcleo de Magma por las Profundidades de Roca Negra. Si completas la armonización, Lothos Levantagrietas puede teletransportarte al interior."
+L["Finishing the chain gives you the {item:16309:Drakefire Amulet}, which opens Onyxia's Lair."] = "Al completar la cadena obtienes el {item:16309:Amuleto de Pirodraco}, que te da acceso a la Guarida de Onyxia."
 L["Needed to enter Blackwing Lair."] = "Necesaria para entrar en la Guarida Alanegra."
 L["Needs Honored with the Argent Dawn. The higher your standing, the less it costs."] = "Requiere Honorable con El Alba Argenta. Cuanto mayor sea tu reputación, menos cuesta."
 L["Recipe"] = "Receta"
@@ -352,9 +352,9 @@ L["Enchanted Gold Bloodrobe"] = "Toga de sangre de oro encantado"
 L["Orb of Orahil"] = "Orbe de Orahil"
 L["Summon Felsteed"] = "Invocar corcel vil"
 L["An Imp's Request"] = "La petición de un diablillo"
-L["Inferno"] = "Inferno"
+L["Inferno"] = "Averno"
 L["Summon Dreadsteed"] = "Invocar corcel nefasto"
-L["Ritual of Doom"] = "Ritual de condena"
+L["Ritual of Doom"] = "Ritual de fatalidad"
 L["Bear Form"] = "Forma de oso"
 L["Child of Nature"] = "Hijo de la naturaleza"
 L["Cure Poison"] = "Curar envenenamiento"
@@ -1334,7 +1334,7 @@ L["Click to show %s"] = "Haz clic para mostrar %s"
 -- UI/TierSets.lua
 L["Set bonuses"] = "Bonificaciones de conjunto"
 L["Remove from wishlist"] = "Quitar de la lista de deseos"
-L["Wishlist the set"] = "Conjunto a la lista de deseos"
+L["Wishlist the set"] = "Añadir el conjunto a la lista de deseos"
 L["Open %s"] = "Abrir %s"
 L["%d of %d appearances collected"] = "%d de %d apariencias conseguidas"
 
