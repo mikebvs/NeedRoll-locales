@@ -185,6 +185,7 @@ L["Ring of Law"] = true
 L["The Seven"] = true
 L["The Four Horsemen"] = true
 L["Twin Emperors"] = true
+L["The Lost Dwarves"] = true
 L["Broken Trap"] = true
 L["KILL ON SIGHT"] = true
 L["WANTED"] = true
