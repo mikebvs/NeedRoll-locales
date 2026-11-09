@@ -42,7 +42,7 @@ L["%dc"] = true
 L["v%s is available (you are running v%s). Update through CurseForge."] = true
 L["%s by Flowmotion"] = true
 L["UI not built yet."] = true
-L["Styles: modern, native."] = true
+L["Styles: %s."] = true
 L["Window style: %s."] = true
 L["Text sizes: normal, large."] = true
 L["Text size: %s."] = true
@@ -1227,8 +1227,6 @@ L["Items"] = true
 
 -- UI/Settings.lua
 L["Window style"] = true
-L["Native"] = true
-L["Modern"] = true
 L["UI scale"] = true
 L["Normal"] = true
 L["Large"] = true
@@ -1336,6 +1334,10 @@ L["Loaded from your character. Click to add a point, right-click to take one bac
 L["Click to add a point, right-click to take one back."] = true
 
 -- UI/Theme.lua
+L["Native"] = true
+L["Modern"] = true
+L["Dark"] = true
+L["ElvUI"] = true
 L["Cancel"] = true
 L["Save"] = true
 L["Showing %s"] = true
