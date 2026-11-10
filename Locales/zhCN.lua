@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-10); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("zhCN")
 if not L then return end
@@ -189,6 +189,7 @@ L["Ring of Law"] = "法律之环"
 L["The Seven"] = "七贤"
 L["The Four Horsemen"] = "天启四骑士"
 L["Twin Emperors"] = "双子皇帝"
+L["The Lost Dwarves"] = "失踪的矮人"
 L["Broken Trap"] = "破损的陷阱"
 L["KILL ON SIGHT"] = "格杀勿论"
 L["WANTED"] = "通缉"
@@ -1171,6 +1172,8 @@ L["where it comes from isn't known yet"] = "来源尚不明确"
 L["%d camp feature"] = "%d个营地设施"
 L["%d camp features"] = "%d个营地设施"
 L["Skill %d"] = "技能%d"
+L["%s quest chain"] = "%s任务线"
+L["Open in NeedRoll"] = "在NeedRoll中打开"
 L["Skill %d+"] = "技能%d+"
 L["Skill up to %d"] = "技能最高%d"
 L["%d recipes"] = "%d个配方"
@@ -1212,6 +1215,8 @@ L["Progress"] = "进度"
 L["Dungeons and Raids"] = "地下城和团队副本"
 L["Bosses"] = "首领"
 L["Items"] = "物品"
+L["This character"] = "当前角色"
+L["All characters"] = "所有角色"
 
 -- UI/Settings.lua
 L["Window style"] = "窗口风格"
@@ -1236,6 +1241,9 @@ L["Item tooltips anywhere in the game (bags, inspect, chat links, loot) name the
 L["Collection ticks"] = "收藏勾选"
 L["Marks gear whose look you've collected"] = "标记已收集外观的装备"
 L["A tick after an item's name shows whether you have collected its appearance: in color once collected, grey until then."] = "物品名称后的勾选标记显示你是否已收集其外观：已收集时为彩色，否则为灰色。"
+L["Remember sections"] = "记住分区状态"
+L["Open or shut, as you left them"] = "保持你离开时的展开或收起"
+L["Loot sections, the middle column's groups and a raid's Attunement heading stay open or shut as you left them, after a reload or logout too. This character keeps each character's own; All characters shares one set; Off forgets them when the game reloads."] = "拾取分区、中间栏的分组和团队副本的“进入资格”标题会保持你离开时的展开或收起状态，重载或登出后也一样。“当前角色”为每个角色各自保存；“所有角色”共用一套；“关”会在游戏重载时忘记它们。"
 L["Share drops"] = "分享掉落"
 L["Helps fill in loot lists for everyone"] = "帮助为所有人完善掉落列表"
 L["NeedRoll tells other NeedRoll players on your realm and in your guild which items bosses drop, new quests and what class trainers teach, through hidden addon messages, to help fill in its lists. Off stops those messages, so its lists fill in more slowly. NeedRoll still tells your guild and group which version it runs, so it can say when an update is out."] = "NeedRoll 通过隐藏的插件消息，告诉同一服务器和公会中的其他 NeedRoll 玩家首领掉落了哪些物品、新的任务以及职业训练师传授的技能，以补全各个列表。关闭后将停止发送这些消息，列表的补全会变慢。NeedRoll 仍会告诉你的公会和队伍它所使用的版本，以便在有更新时提醒你。"
