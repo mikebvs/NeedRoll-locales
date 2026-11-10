@@ -1189,6 +1189,9 @@ L["Questline"] = true
 L["Progress"] = true
 
 -- UI/RecipeBand.lua
+L["From trainer"] = true
+L["Learnable"] = true
+L["Learnable now"] = true
 L["Hide grey"] = true
 L["Cloak"] = true
 L["Bracer"] = true
@@ -1221,6 +1224,9 @@ L["Clear the skill range"] = true
 L["Required skill %s to %s"] = true
 L["Skill %d+"] = true
 L["Skill up to %d"] = true
+L["Listing the recipes you haven't learned, at any skill. Click for only those your skill allows now."] = true
+L["Listing the recipes you haven't learned that your skill allows now. Click to list every recipe again."] = true
+L["Click to list the recipes you haven't learned, and again for only those your skill allows now."] = true
 L["%d recipes"] = true
 L["%s · %s"] = true
 L["%s · %d of %d recipes"] = true
