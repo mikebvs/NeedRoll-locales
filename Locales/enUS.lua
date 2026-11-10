@@ -1154,6 +1154,10 @@ L["%d camp feature"] = true
 L["%d camp features"] = true
 L["Skill %d"] = true
 
+-- UI/QuestChainNotes.lua
+L["%s quest chain"] = true
+L["Open in NeedRoll"] = true
+
 -- UI/Questlines.lua
 L["%s to %s"] = true
 L["%s path"] = true
