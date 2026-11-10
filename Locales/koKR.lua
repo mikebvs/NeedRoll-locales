@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-10); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("koKR")
 if not L then return end
@@ -189,6 +189,7 @@ L["Ring of Law"] = "법의 심판장"
 L["The Seven"] = "일곱 드워프"
 L["The Four Horsemen"] = "4인의 기병대"
 L["Twin Emperors"] = "쌍둥이 황제"
+L["The Lost Dwarves"] = "길 잃은 드워프"
 L["Broken Trap"] = "망가진 덫"
 L["KILL ON SIGHT"] = "발견 즉시 사살"
 L["WANTED"] = "수배"
@@ -1171,6 +1172,8 @@ L["where it comes from isn't known yet"] = "출처가 아직 알려지지 않음
 L["%d camp feature"] = "야영 시설 %d개"
 L["%d camp features"] = "야영 시설 %d개"
 L["Skill %d"] = "숙련도 %d"
+L["%s quest chain"] = "%s 퀘스트 라인"
+L["Open in NeedRoll"] = "NeedRoll에서 열기"
 L["Skill %d+"] = "숙련도 %d+"
 L["Skill up to %d"] = "숙련도 %d까지"
 L["%d recipes"] = "제조법 %d개"
@@ -1212,6 +1215,8 @@ L["Progress"] = "진행도"
 L["Dungeons and Raids"] = "던전 및 공격대"
 L["Bosses"] = "우두머리"
 L["Items"] = "아이템"
+L["This character"] = "이 캐릭터"
+L["All characters"] = "모든 캐릭터"
 
 -- UI/Settings.lua
 L["Window style"] = "창 스타일"
@@ -1236,6 +1241,9 @@ L["Item tooltips anywhere in the game (bags, inspect, chat links, loot) name the
 L["Collection ticks"] = "수집 체크 표시"
 L["Marks gear whose look you've collected"] = "외형을 수집한 장비 표시"
 L["A tick after an item's name shows whether you have collected its appearance: in color once collected, grey until then."] = "아이템 이름 뒤의 체크 표시로 외형 수집 여부를 보여 줍니다. 수집하면 색이 있고, 그전에는 회색입니다."
+L["Remember sections"] = "섹션 상태 기억"
+L["Open or shut, as you left them"] = "남겨 둔 대로 열림 또는 닫힘"
+L["Loot sections, the middle column's groups and a raid's Attunement heading stay open or shut as you left them, after a reload or logout too. This character keeps each character's own; All characters shares one set; Off forgets them when the game reloads."] = "전리품 섹션, 가운데 열의 그룹, 공격대의 입장 자격 제목이 다시 불러오기나 로그아웃 후에도 남겨 둔 대로 열리거나 닫혀 있습니다. 이 캐릭터: 캐릭터마다 따로 기억합니다. 모든 캐릭터: 하나를 함께 씁니다. 끄기: 게임을 다시 불러오면 잊습니다."
 L["Share drops"] = "전리품 공유"
 L["Helps fill in loot lists for everyone"] = "모두의 전리품 목록을 채우는 데 도움"
 L["NeedRoll tells other NeedRoll players on your realm and in your guild which items bosses drop, new quests and what class trainers teach, through hidden addon messages, to help fill in its lists. Off stops those messages, so its lists fill in more slowly. NeedRoll still tells your guild and group which version it runs, so it can say when an update is out."] = "NeedRoll은 숨겨진 애드온 메시지로 같은 서버와 길드의 다른 NeedRoll 사용자에게 우두머리가 떨어뜨리는 아이템, 새 퀘스트, 직업 기술 전문가가 가르치는 기술을 알려 목록을 채웁니다. 끄면 이 메시지를 보내지 않으며, 목록이 더 느리게 채워집니다. 업데이트가 나오면 알려 줄 수 있도록, NeedRoll은 계속 길드와 파티에 사용 중인 버전을 알립니다."

@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-10); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("frFR")
 if not L then return end
@@ -189,6 +189,7 @@ L["Ring of Law"] = "Cercle de la Loi"
 L["The Seven"] = "Les Sept"
 L["The Four Horsemen"] = "Les quatre cavaliers"
 L["Twin Emperors"] = "Empereurs jumeaux"
+L["The Lost Dwarves"] = "Les nains perdus"
 L["Broken Trap"] = "Piège cassé"
 L["KILL ON SIGHT"] = "À ABATTRE À VUE"
 L["WANTED"] = "AVIS DE RECHERCHE"
@@ -1171,6 +1172,8 @@ L["where it comes from isn't known yet"] = "origine encore inconnue"
 L["%d camp feature"] = "%d aménagement de camp"
 L["%d camp features"] = "%d aménagements de camp"
 L["Skill %d"] = "Compétence %d"
+L["%s quest chain"] = "Suite de quêtes : %s"
+L["Open in NeedRoll"] = "Ouvrir dans NeedRoll"
 L["Skill %d+"] = "Compétence %d+"
 L["Skill up to %d"] = "Compétence jusqu'à %d"
 L["%d recipes"] = "%d recettes"
@@ -1212,6 +1215,8 @@ L["Progress"] = "Progression"
 L["Dungeons and Raids"] = "Donjons et raids"
 L["Bosses"] = "Boss"
 L["Items"] = "Objets"
+L["This character"] = "Ce personnage"
+L["All characters"] = "Tous les personnages"
 
 -- UI/Settings.lua
 L["Window style"] = "Style de fenêtre"
@@ -1236,6 +1241,9 @@ L["Item tooltips anywhere in the game (bags, inspect, chat links, loot) name the
 L["Collection ticks"] = "Coches de collection"
 L["Marks gear whose look you've collected"] = "Marque l'équipement dont vous avez l'apparence"
 L["A tick after an item's name shows whether you have collected its appearance: in color once collected, grey until then."] = "Une coche après le nom d'un objet indique si vous avez collecté son apparence : en couleur une fois collectée, grise sinon."
+L["Remember sections"] = "Mémoriser les sections"
+L["Open or shut, as you left them"] = "Ouvertes ou fermées, comme vous les avez laissées"
+L["Loot sections, the middle column's groups and a raid's Attunement heading stay open or shut as you left them, after a reload or logout too. This character keeps each character's own; All characters shares one set; Off forgets them when the game reloads."] = "Les sections de butin, les groupes de la colonne centrale et l'en-tête Accès d'un raid restent ouverts ou fermés comme vous les avez laissés, même après un rechargement ou une déconnexion. « Ce personnage » garde ceux de chaque personnage ; « Tous les personnages » en partage un seul jeu ; « Désactivé » les oublie au rechargement du jeu."
 L["Share drops"] = "Partager le butin"
 L["Helps fill in loot lists for everyone"] = "Aide à compléter les listes de butin pour tous"
 L["NeedRoll tells other NeedRoll players on your realm and in your guild which items bosses drop, new quests and what class trainers teach, through hidden addon messages, to help fill in its lists. Off stops those messages, so its lists fill in more slowly. NeedRoll still tells your guild and group which version it runs, so it can say when an update is out."] = "NeedRoll indique aux autres joueurs NeedRoll de votre royaume et de votre guilde quels objets les boss laissent tomber, les nouvelles quêtes et ce qu'enseignent les maîtres de classe, via des messages d'addon cachés, pour compléter ses listes. Désactivé, ces messages ne sont plus envoyés et ses listes se complètent plus lentement. NeedRoll indique toujours à votre guilde et à votre groupe quelle version il utilise, pour pouvoir vous prévenir quand une mise à jour est disponible."
