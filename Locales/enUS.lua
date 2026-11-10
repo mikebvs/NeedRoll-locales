@@ -1231,6 +1231,9 @@ L["Bosses"] = true
 L["Items"] = true
 
 -- UI/Settings.lua
+L["This character"] = true
+L["All characters"] = true
+L["Off"] = true
 L["Window style"] = true
 L["UI scale"] = true
 L["Normal"] = true
@@ -1243,12 +1246,14 @@ L["Game"] = true
 L["Whether the world map shows NeedRoll's map inside a dungeon"] = true
 L["Drop sources on tooltips"] = true
 L["On"] = true
-L["Off"] = true
 L["Item tooltips show which boss drops them"] = true
 L["Item tooltips anywhere in the game (bags, inspect, chat links, loot) name the dungeon or raid boss that drops the item."] = true
 L["Collection ticks"] = true
 L["Marks gear whose look you've collected"] = true
 L["A tick after an item's name shows whether you have collected its appearance: in color once collected, grey until then."] = true
+L["Remember sections"] = true
+L["Open or shut, as you left them"] = true
+L["Loot sections, the middle column's groups and a raid's Attunement heading stay open or shut as you left them, after a reload or logout too. This character keeps each character's own; All characters shares one set; Off forgets them when the game reloads."] = true
 L["Share drops"] = true
 L["Helps fill in loot lists for everyone"] = true
 L["NeedRoll tells other NeedRoll players on your realm and in your guild which items bosses drop, new quests and what class trainers teach, through hidden addon messages, to help fill in its lists. Off stops those messages, so its lists fill in more slowly. NeedRoll still tells your guild and group which version it runs, so it can say when an update is out."] = true
