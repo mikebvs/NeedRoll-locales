@@ -579,6 +579,7 @@ L["Deathless Marrow"] = true
 L["Min'Loth the Serpent"] = true
 L["Gill"] = true
 L["Hatescreech"] = true
+L["Legashi Satyr"] = true
 L["Vitrix"] = true
 L["Decrepit Harvester"] = true
 
