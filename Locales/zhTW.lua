@@ -449,7 +449,7 @@ L["Alchemy shop, on the shelf behind Evie Whirlbrew"] = "鍊金商店，伊維·
 
 -- Data/Lore.lua
 L["A network of volcanic caves running beneath Orgrimmar. Troggs and the Searing Blade, a cult of Burning Legion worshippers, have taken root under the Horde's capital, and the Warchief wants them rooted out."] = "奧格瑪地底綿延的火山洞穴網。穴居人與崇拜燃燒軍團的邪教灼刃已在部落首都地底紮根，大酋長要將他們連根拔除。"
-L["Caves in the Barrens named for the moaning winds that blow through them. The night elf druid Naralex sought to heal the land here, but his Emerald Dream vision turned into a nightmare that twisted his own disciples into the Druids of the Fang."] = "位於貧瘠之地的洞穴，因穿過其中的哀嚎之風而得名。夜精靈德魯伊納拉雷克斯想在此治癒大地，但他在翡翠夢境中的幻象化為夢魇，將他的門徒扭曲成尖牙德魯伊。"
+L["Caves in the Barrens named for the moaning winds that blow through them. The night elf druid Naralex sought to heal the land here, but his Emerald Dream vision turned into a nightmare that twisted his own disciples into the Druids of the Fang."] = "位於貧瘠之地的洞穴，因穿過其中的哀嚎之風而得名。夜精靈德魯伊納拉雷克斯想在此治癒大地，但他在翡翠夢境中的幻象化為夢魘，將他的門徒扭曲成尖牙德魯伊。"
 L["Once a gold mine under Moonbrook, now the hidden base of the Defias Brotherhood. Edwin VanCleef's stonemasons, cheated of their pay after rebuilding Stormwind, are building a juggernaut here to take their revenge."] = "曾是月溪鎮地底的金礦，如今是迪菲亞兄弟會的秘密基地。艾德溫·范克里夫的石匠們在重建暴風城後被賴掉工錢，正在此打造巨型戰艦以展開復仇。"
 L["The keep of the mad archmage Arugal above Pyrewood Village. His summoned worgen overran Silverpine Forest, and the Forsaken and the Kirin Tor both want him stopped."] = "瘋狂大法師亞魯加位於焚木村上方的城堡。他召喚的狼人席捲了銀松森林，被遺忘者與祈倫托都想阻止他。"
 L["A sunken night elf temple once sacred to the moon goddess Elune, on the Ashenvale coast. The Twilight's Hammer and the naga now gather there to wake the ancient creature Aku'mai."] = "梣谷海岸一座沉沒的夜精靈神廟，曾供奉月之女神伊露恩。暮光之錘與納迦如今聚集於此，企圖喚醒遠古生物阿庫麥爾。"
