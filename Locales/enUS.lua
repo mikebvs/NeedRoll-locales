@@ -996,8 +996,10 @@ L["Incomplete"] = true
 L["Starts inside the dungeon"] = true
 L["In log"] = true
 L["Not started"] = true
+L["%s to %s"] = true
 L["Click to open it in your quest log"] = true
 L["Optional"] = true
+L["All %d, any order"] = true
 L["Show all %d steps"] = true
 L["can't find the %s map."] = true
 L["that map doesn't take pins."] = true
@@ -1193,7 +1195,6 @@ L["%s quest chain"] = true
 L["Open in NeedRoll"] = true
 
 -- UI/Questlines.lua
-L["%s to %s"] = true
 L["%s path"] = true
 L["After %s"] = true
 L["%s (Rank %d)"] = true
@@ -1205,7 +1206,6 @@ L["Final steps"] = true
 L["Then one of these"] = true
 L["Do one of these"] = true
 L["Then all %d, any order"] = true
-L["All %d, any order"] = true
 L["Then rewards %s"] = true
 L["May not be final for WoW: Forever"] = true
 L["or"] = true
