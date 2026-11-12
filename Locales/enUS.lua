@@ -16,6 +16,9 @@ L["Turned off, Dungeons and Raids show only loot, bosses and maps: no Quests lis
 L["Show only accepted quests"] = true
 L["When enabled: the dungeon map only shows quests you're on or can pick up inside the instance"] = true
 L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and zone-wide quests only for quests in your quest log, and the \"!\" of quests you can pick up inside. Off, it shows every quest's. A target clicked on a quest page shows its markers either way."] = true
+L["Quest givers on the world map"] = true
+L["Marks where to pick up dungeon and raid quests you can take"] = true
+L["A quest \"!\" where you can pick one up now; a questline \"!\" where the steps one needs first start. Click to open it in NeedRoll."] = true
 L["PvP"] = true
 L["Honor and battleground rewards"] = true
 L["Factions"] = true
@@ -25,6 +28,9 @@ L["Tier sets, mounts, pets and more"] = true
 L["Library"] = true
 L["Where every library book is, and which ones you've handed in"] = true
 L["Each book's spot as a map pin, whether you hold it or handed it in, and the reward quests at 10, 20 and 25 books."] = true
+L["Books on the world map"] = true
+L["Marks the library books you haven't found yet"] = true
+L["Only books you haven't handed in and don't hold in your bags or bank. Click one to open the Library."] = true
 L["Professions"] = true
 L["Recipes, materials and where to learn them"] = true
 L["Professions Icons"] = true
@@ -1495,6 +1501,12 @@ L["Details"] = true
 L["This wishlist is empty"] = true
 L["Star gear on any loot list, or Import a sixtyupgrades.com export."] = true
 L["%d from dungeons and raids"] = true
+
+-- UI/WorldMapMarkers.lua
+L["Questline step %d of %d, leads to %s (%s)"] = true
+L["Quest giver"] = true
+L["Click to open it in NeedRoll"] = true
+L["Click to open the Library"] = true
 
 -- UI/WorldMapOverlay.lua
 L["%s located at (%.1f, %.1f) in %s"] = true
