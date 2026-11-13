@@ -208,6 +208,13 @@ L["Optional. Without it you reach the Core through Blackrock Depths; with it, Lo
 L["Finishing the chain gives you the {item:16309:Drakefire Amulet}, which opens Onyxia's Lair."] = true
 L["Needed to enter Blackwing Lair."] = true
 L["Needs Honored with the Argent Dawn. The higher your standing, the less it costs."] = true
+L["{boss:SM_LIBRARY:ARCANIST_DOAN} drops the {item:7146:The Scarlet Key}. It unlocks the doors to the Armory and the Cathedral, and a gate inside Stratholme. One key in the group is enough."] = true
+L["Alliance players get the {item:277507:Dalaran Sewer Key} from {quest:92458:Heart of Disruption}, Horde players from {quest:92434:Blood in the Streets}. One key in the group is enough to get in."] = true
+L["Summons {boss:CITY_OF_DALARAN:LYN_THE_IGNORED}, an optional boss here. Defeat {boss:SHADOWFANG:ARCHMAGE_ARUGAL} and pick up the {item:276561:Black Tome} lying near him, then use it at the Ambermill Leyline Focus in Silverpine Forest to make the {item:275989:Tome of Dalaran}. One tome is enough for the group."] = true
+L["The second quest gives the {item:11000:Shadowforge Key}, which unlocks the Shadowforge gate inside Blackrock Depths. One key in the group is enough."] = true
+L["The last quest gives the {item:13704:Skeleton Key}, which unlocks the door of Scholomance. One key in the group is enough."] = true
+L["Not needed to enter the Core. Duke Hydraxis's quests earn you the {item:17333:Aqual Quintessence}, which puts out the runes by the Core's bosses; once every rune is out, Majordomo Executus appears. Agent of Hydraxis needs Honored with the Hydraxian Waterlords."] = true
+L["Not needed to enter. Once one player on the realm finishes this chain, the gates of Ahn'Qiraj open for everyone. From Anachronos on, its quests need at least Neutral with the Brood of Nozdormu. The red, green and blue shards can be won side by side."] = true
 L["Recipe"] = true
 L["Trainer"] = true
 L["Drop"] = true
@@ -1095,6 +1102,10 @@ L["Free"] = true
 L["Players"] = true
 L["%d of %d complete"] = true
 L["None for a %s"] = true
+L["%s attunement"] = true
+L["Click to see the %s attunement"] = true
+L["Showing %s"] = true
+L["Click to show %s"] = true
 L["Complete"] = true
 L["In Progress"] = true
 L["Not known yet."] = true
@@ -1113,8 +1124,6 @@ L["You also get"] = true
 L["You get"] = true
 L["Alliance only"] = true
 L["Horde only"] = true
-L["%s attunement"] = true
-L["Click to see the %s attunement"] = true
 
 -- UI/Poisons.lua
 L["Skill-ups"] = true
@@ -1400,8 +1409,6 @@ L["Dark"] = true
 L["ElvUI"] = true
 L["Cancel"] = true
 L["Save"] = true
-L["Showing %s"] = true
-L["Click to show %s"] = true
 
 -- UI/TierSets.lua
 L["Set bonuses"] = true
