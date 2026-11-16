@@ -796,6 +796,7 @@ L["Library Books"] = true
 
 -- UI/Lists.lua
 L["Classic Raids"] = true
+L["Not met"] = true
 L["Instances"] = true
 L["(%d players)"] = true
 L["Profession Quests"] = true
