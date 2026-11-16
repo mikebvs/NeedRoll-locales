@@ -1302,8 +1302,10 @@ L["Clear the skill range"] = true
 L["Required skill %s to %s"] = true
 L["Skill %d+"] = true
 L["Skill up to %d"] = true
-L["%d recipes"] = true
+L["Any buff"] = true
+L["Buff"] = true
 L["%s · %s"] = true
+L["%d recipes"] = true
 L["%s · %d of %d recipes"] = true
 
 -- UI/Search.lua
