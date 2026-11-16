@@ -1342,6 +1342,7 @@ L["Loot sections, the middle column's groups and a raid's Attunement heading sta
 L["Share drops"] = true
 L["Helps fill in loot lists for everyone"] = true
 L["NeedRoll tells other NeedRoll players on your realm and in your guild which items bosses drop, new quests, which spells and recipes trainers teach and what vendors sell (recipes and rare items), through hidden addon messages, to help fill in its lists. Off stops those messages, so its lists fill in more slowly. NeedRoll still tells your guild and group which version it runs, so it can say when an update is out."] = true
+L["When NeedRoll's developer asks for finds, it also tells him who in your guild or group shared finds in the past week, so he can ask them too."] = true
 L["Credit my finds"] = true
 L["Your character name in NeedRoll's credits"] = true
 L["On puts your character name, with what you shared, in NeedRoll's credits list. Off stores your finds anonymously."] = true
