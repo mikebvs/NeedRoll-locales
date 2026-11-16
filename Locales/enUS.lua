@@ -61,6 +61,12 @@ L["Window size and position reset."] = true
 L["Toggle NeedRoll"] = true
 L["Click to browse loot."] = true
 
+-- Core/LibraryBooks.lua
+L["Handed in"] = true
+L["In bags"] = true
+L["In bank"] = true
+L["Not found"] = true
+
 -- Core/Names.lua
 L["%s: Graveyard"] = true
 L["%s: Library"] = true
@@ -762,10 +768,6 @@ L["item %d"] = true
 -- UI/LibraryBooks.lua
 L["All books"] = true
 L["Still to find"] = true
-L["Handed in"] = true
-L["In bags"] = true
-L["In bank"] = true
-L["Not found"] = true
 L["Hand in %d books to the librarian"] = true
 L["Its rewards need level %d"] = true
 L["Choose one:"] = true
@@ -1544,6 +1546,11 @@ L["Questline step %d of %d, leads to %s (%s)"] = true
 L["Quest giver"] = true
 L["Click to open it in NeedRoll"] = true
 L["Click to open the Library"] = true
+L["On: every quest giver and book, those done faded"] = true
+L["On: only quests you haven't done and books you haven't found"] = true
+L["NeedRoll map markers"] = true
+L["Dungeon and raid quests within %d levels of yours"] = true
+L["Click to change"] = true
 
 -- UI/WorldMapOverlay.lua
 L["%s located at (%.1f, %.1f) in %s"] = true
