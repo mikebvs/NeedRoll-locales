@@ -190,6 +190,7 @@ L["Darkmoon Cards"] = true
 L["Midsummer Festival"] = true
 L["Winter Veil"] = true
 L["Ahn'Qiraj"] = true
+L["Desolace Centaur Reputation"] = true
 L["Trash Drops"] = true
 L["Gordok Tribute"] = true
 L["Ring of Law"] = true
