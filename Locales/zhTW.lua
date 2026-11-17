@@ -64,6 +64,9 @@ L["Each book's spot as a map pin, whether you hold it or handed it in, and the r
 L["Books on the world map"] = "世界地圖上的書籍"
 L["Marks the library books you haven't found yet"] = "標記你還沒找到的圖書館書籍"
 L["Only books you haven't handed in and don't hold in your bags or bank. Click one to open the Library."] = "只顯示你沒有繳交、也不在背包或銀行裡的書。點擊一本開啟圖書館。"
+L["Portals on the world map"] = "世界地圖上的傳送門"
+L["Marks the portals to other cities and zones"] = "標記通往其他城市和地區的傳送門"
+L["Both sides' portals, on the zone map each stands in. Click one to pin it on your map."] = "雙方陣營的傳送門，顯示在各自所在地區的地圖上。點擊一個即可在你的地圖上標記它。"
 
 -- Core/Names.lua
 L["%s: Graveyard"] = "%s：墓地"
@@ -1088,6 +1091,7 @@ L["Suggested level %d"] = "建議等級 %d"
 L["Quest level %d"] = "任務等級 %d"
 L["%s only"] = "限%s"
 L["No level requirement"] = "無等級需求"
+L["Weekly"] = "每週"
 L["Shareable"] = "可分享"
 L["Not shareable"] = "不可分享"
 L["Step %d of %d in a chain that starts with %s"] = "第%d步（共%d步），任務鏈起始於%s"
@@ -1577,6 +1581,7 @@ L["%s located at (%.1f, %.1f) in %s"] = "%s位於 (%.1f, %.1f)，%s"
 L["Shift-click to post its location in chat"] = "Shift-點擊在聊天中發布其位置"
 
 -- UI/WorldMapMarkers.lua
+L["Portal to %s"] = "通往%s的傳送門"
 L["Questline step %d of %d, leads to %s (%s)"] = "任務線第%d步（共%d步），通往%s（%s）"
 L["Quest giver"] = "任務提供者"
 L["Click to open it in NeedRoll"] = "點擊在 NeedRoll 中開啟"

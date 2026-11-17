@@ -64,6 +64,9 @@ L["Each book's spot as a map pin, whether you hold it or handed it in, and the r
 L["Books on the world map"] = "세계 지도의 책"
 L["Marks the library books you haven't found yet"] = "아직 찾지 못한 도서관 책을 표시"
 L["Only books you haven't handed in and don't hold in your bags or bank. Click one to open the Library."] = "반납하지 않았고 가방이나 은행에도 없는 책만 표시합니다. 책을 클릭하면 도서관이 열립니다."
+L["Portals on the world map"] = "세계 지도의 차원문"
+L["Marks the portals to other cities and zones"] = "다른 도시와 지역으로 가는 차원문을 표시"
+L["Both sides' portals, on the zone map each stands in. Click one to pin it on your map."] = "양 진영의 차원문을 각 차원문이 있는 지역 지도에 표시합니다. 클릭하면 지도에 핀으로 표시합니다."
 
 -- Core/Names.lua
 L["%s: Graveyard"] = "%s: 묘지"
@@ -1088,6 +1091,7 @@ L["Suggested level %d"] = "권장 레벨 %d"
 L["Quest level %d"] = "퀘스트 레벨 %d"
 L["%s only"] = "%s 전용"
 L["No level requirement"] = "레벨 제한 없음"
+L["Weekly"] = "주간"
 L["Shareable"] = "공유 가능"
 L["Not shareable"] = "공유 불가"
 L["Step %d of %d in a chain that starts with %s"] = "%d/%d단계 · 연계 시작: %s"
@@ -1577,6 +1581,7 @@ L["%s located at (%.1f, %.1f) in %s"] = "%s 위치: (%.1f, %.1f), %s"
 L["Shift-click to post its location in chat"] = "Shift-클릭하여 대화창에 위치 올리기"
 
 -- UI/WorldMapMarkers.lua
+L["Portal to %s"] = "%s행 차원문"
 L["Questline step %d of %d, leads to %s (%s)"] = "퀘스트 라인 %d/%d단계, %s(으)로 이어짐 (%s)"
 L["Quest giver"] = "퀘스트 제공자"
 L["Click to open it in NeedRoll"] = "클릭하여 NeedRoll에서 열기"
