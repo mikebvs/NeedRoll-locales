@@ -1489,6 +1489,8 @@ L["Cancel"] = true
 L["Save"] = true
 
 -- UI/TierSets.lua
+L["%d set"] = true
+L["%d sets"] = true
 L["Set bonuses"] = true
 L["Remove from wishlist"] = true
 L["Wishlist the set"] = true
