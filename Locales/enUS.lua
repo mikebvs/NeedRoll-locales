@@ -251,6 +251,11 @@ L["Plate"] = true
 L["Misc"] = true
 L["Rank %d"] = true
 
+-- Core/Shopping.lua
+L["Shopping list"] = true
+L["Imported"] = true
+L["Paste an Auctionator shopping list: its name, then each item after a ^."] = true
+
 -- Core/Talents.lua
 L["Talent plan"] = true
 L["Paste a NeedRoll talent plan."] = true
@@ -294,7 +299,6 @@ L["Paste a sixtyupgrades.com export or a NeedRoll share string."] = true
 L["That doesn't look like a sixtyupgrades.com export."] = true
 L["That export has no gear in it."] = true
 L["Imported from sixtyupgrades"] = true
-L["Imported"] = true
 
 -- Data/Camping.lua
 L["cooking fire with room for 3 camp features"] = true
@@ -972,7 +976,6 @@ L["Some items in the game client are leftovers from Season of Discovery. They ca
 L["Items changed for WoW: Forever are hidden by the game until it has shown them to you, for example once one drops from a boss or you find its recipe. Until then their details can be missing."] = true
 L["Back"] = true
 L["to go back!"] = true
-L["Shopping list"] = true
 L["Adds %s and its materials to the Shopping List tab."] = true
 L["On your list: %d"] = true
 L["On shopping list: %dx %s"] = true
@@ -1316,6 +1319,21 @@ L["%s · %s"] = true
 L["%d recipes"] = true
 L["%s · %d of %d recipes"] = true
 
+-- UI/SavedLists.lua
+L["New list"] = true
+L["Replace current"] = true
+L["Rename list"] = true
+L["Another list has that name."] = true
+L["New empty list..."] = true
+L["Delete list"] = true
+L["Clear list"] = true
+L["Click again to clear"] = true
+L["Export"] = true
+L["Import"] = true
+L["Save preset"] = true
+L["Saves this list under a new name, account-wide."] = true
+L["Saves a copy of this list for every character on the account."] = true
+
 -- UI/Search.lua
 L["Dungeons and Raids"] = true
 L["Bosses"] = true
@@ -1381,6 +1399,9 @@ L["Needs %s"] = true
 L["One module always stays on"] = true
 
 -- UI/Shopping.lua
+L["Wanted"] = true
+L["On alts"] = true
+L["To craft"] = true
 L["Made with %s%s"] = true
 L["Click to open its recipe"] = true
 L["Click to buy it instead of its materials"] = true
@@ -1388,24 +1409,37 @@ L["Click to buy its materials instead"] = true
 L["Remove from the list"] = true
 L["One more"] = true
 L["One fewer"] = true
+L["%d on alts"] = true
+L["Covered"] = true
 L["Needed"] = true
-L["On alts"] = true
 L["Left to buy"] = true
 L["In bags: %d  ·  In bank: %d"] = true
 L["Gold on each character"] = true
 L["Other characters show the gold they had when you last played them."] = true
 L["Total gold on all characters: %s"] = true
-L["Clear list"] = true
-L["Click again to clear"] = true
+L["%d item"] = true
+L["Not found in NeedRoll's professions: %s"] = true
+L["Paste shopping lists exported from Auctionator (or NeedRoll), one list per line."] = true
+L["Paste here (Ctrl+V)"] = true
+L["Loading item names..."] = true
+L["None of these items are in NeedRoll's professions."] = true
+L["Imported %s"] = true
+L["Press Ctrl+C to copy, then paste it into Auctionator's shopping list Import."] = true
+L["Items on this list"] = true
+L["Materials to buy"] = true
+L["Your shopping lists"] = true
+L["Saved for every character on this account. Recipes add to the list shown here."] = true
+L["An empty list; \"Add to shopping list\" on a recipe adds to it."] = true
+L["Add lists exported from Auctionator's shopping lists."] = true
+L["This list as an Auctionator shopping list, to import there."] = true
 L["Subtract what's in my bags"] = true
-L["Counts in To buy leave out what this character already carries."] = true
+L["Crafted items this character carries mean fewer crafts, and materials it carries come off To buy."] = true
 L["Subtract materials on other characters"] = true
-L["Counts in To buy also leave out what your other characters on this realm and faction hold in their bags and banks. Each alt is counted from their last login, and their bank from their last bank visit."] = true
+L["Also uses what your other characters on this realm and faction hold in their bags and banks, crafted items and materials alike. Each alt is counted from their last login, and their bank from their last bank visit."] = true
 L["To buy"] = true
 L["Your shopping list is empty"] = true
 L["Open a recipe on the Professions tab and click \"Add to shopping list\"."] = true
 L["%s  ·  %s to buy"] = true
-L["%d item"] = true
 L["%d material"] = true
 
 -- UI/TalentLinks.lua
@@ -1424,10 +1458,8 @@ L["Rank %d/%d"] = true
 L["Requires %d points in %s"] = true
 L["or %d points in %s"] = true
 L["This class's talents aren't available yet. Try again in a moment."] = true
-L["Export"] = true
 L["Imported a %s plan; %d points broke the talent rules and were left out."] = true
 L["Imported a %s plan."] = true
-L["Import"] = true
 L["Paste a talent plan another NeedRoll player exported."] = true
 L["OK"] = true
 L["Link"] = true
@@ -1495,24 +1527,8 @@ L["Faction vendors"] = true
 L["Not in NeedRoll yet"] = true
 L["%d owned"] = true
 L["Paste a sixtyupgrades.com export (Export, then Copy JSON) or a NeedRoll share string."] = true
-L["Paste here (Ctrl+V)"] = true
-L["New list"] = true
-L["Replace current"] = true
 L["Leave out shirt and tabard"] = true
 L["%d found in NeedRoll, %d from dungeons and raids"] = true
-L["Imported %s"] = true
-L["An empty list, starred items go on it."] = true
-L["Rename list"] = true
-L["Another list has that name."] = true
-L["New empty list..."] = true
-L["Delete list"] = true
-L["Your wishlists"] = true
-L["Saved for every character on this account. Stars add to the list shown here."] = true
-L["A share string for this list, to paste in chat."] = true
-L["Add gear from a sixtyupgrades.com export or a NeedRoll share string."] = true
-L["Save preset"] = true
-L["Saves this list under a new name, account-wide."] = true
-L["Saves a copy of this list for every character on the account."] = true
 L["Chance at least one of these drops in a clear"] = true
 L["Click to open its Overview"] = true
 L["Wished"] = true
@@ -1545,6 +1561,11 @@ L["%s  +%d more"] = true
 L["Details"] = true
 L["This wishlist is empty"] = true
 L["Star gear on any loot list, or Import a sixtyupgrades.com export."] = true
+L["Your wishlists"] = true
+L["Saved for every character on this account. Stars add to the list shown here."] = true
+L["An empty list, starred items go on it."] = true
+L["Add gear from a sixtyupgrades.com export or a NeedRoll share string."] = true
+L["A share string for this list, to paste in chat."] = true
 L["%d from dungeons and raids"] = true
 
 -- UI/WorldMapMarkers.lua
