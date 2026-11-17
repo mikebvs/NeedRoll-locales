@@ -31,6 +31,9 @@ L["Each book's spot as a map pin, whether you hold it or handed it in, and the r
 L["Books on the world map"] = true
 L["Marks the library books you haven't found yet"] = true
 L["Only books you haven't handed in and don't hold in your bags or bank. Click one to open the Library."] = true
+L["Portals on the world map"] = true
+L["Marks the portals to other cities and zones"] = true
+L["Both sides' portals, on the zone map each stands in. Click one to pin it on your map."] = true
 L["Professions"] = true
 L["Recipes, materials and where to learn them"] = true
 L["Professions Icons"] = true
@@ -1580,6 +1583,7 @@ L["A share string for this list, to paste in chat."] = true
 L["%d from dungeons and raids"] = true
 
 -- UI/WorldMapMarkers.lua
+L["Portal to %s"] = true
 L["Questline step %d of %d, leads to %s (%s)"] = true
 L["Quest giver"] = true
 L["Click to open it in NeedRoll"] = true
