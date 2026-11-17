@@ -728,6 +728,13 @@ L["Leads to %s in %s"] = true
 L["The goal"] = true
 L["Step %d of %d"] = true
 
+-- UI/Hotfixes.lua
+L["Copied. Paste it in your browser."] = true
+L["Click the address and press Ctrl+C to copy it."] = true
+L["Game hotfixes"] = true
+L["Blizzard's WoW: Forever hotfix list, in short. Last checked %s."] = true
+L["Removed from Blizzard's list on %s"] = true
+
 -- UI/HunterPets.lua
 L["elite"] = true
 L["rare elite"] = true
@@ -989,6 +996,7 @@ L["Also: /nr reset"] = true
 L["Search loot, bosses, dungeons, quests"] = true
 L["Shift-click to link   ·   Ctrl-click to preview   ·   Hold Shift to compare"] = true
 L["Filter recipes"] = true
+L["Settings"] = true
 L["Back to %s"] = true
 L["Update available: v%s (you have v%s)"] = true
 L["v%s  ·  Up to date"] = true
@@ -1370,7 +1378,6 @@ L["When NeedRoll's developer asks for finds, it also tells him who in your guild
 L["Credit my finds"] = true
 L["Your character name in NeedRoll's credits"] = true
 L["On puts your character name, with what you shared, in NeedRoll's credits list. Off stores your finds anonymously."] = true
-L["Settings"] = true
 L["Language, window style, UI scale, the minimap button, the map in dungeons, drop sources on tooltips, a key to open NeedRoll and which tabs to show."] = true
 L["Needs %s: it is off while %s is."] = true
 L["Turning it off turns off %s too."] = true
@@ -1392,9 +1399,10 @@ L["Modules"] = true
 L["Each module is a tab. One turned off is hidden and not loaded."] = true
 L["NeedRoll on Discord"] = true
 L["Report a bug or a translation mistake, or suggest a feature. Press Ctrl+C to copy the invite, then paste it in your browser."] = true
-L["Copied. Paste it in your browser."] = true
 L["Report bugs and translation mistakes, or suggest a feature."] = true
 L["Saved for every character on this account."] = true
+L["Blizzard's WoW: Forever hotfixes, in short. Ones Blizzard takes back stay, struck through."] = true
+L["Also: /nr hotfixes"] = true
 L["Needs %s"] = true
 L["One module always stays on"] = true
 
