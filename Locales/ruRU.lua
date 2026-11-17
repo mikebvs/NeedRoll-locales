@@ -64,6 +64,9 @@ L["Each book's spot as a map pin, whether you hold it or handed it in, and the r
 L["Books on the world map"] = "Книги на карте мира"
 L["Marks the library books you haven't found yet"] = "Отмечает книги библиотеки, которые вы ещё не нашли"
 L["Only books you haven't handed in and don't hold in your bags or bank. Click one to open the Library."] = "Только книги, которые вы не сдали и которых нет в сумках или банке. Нажмите на книгу, чтобы открыть Библиотеку."
+L["Portals on the world map"] = "Порталы на карте мира"
+L["Marks the portals to other cities and zones"] = "Отмечает порталы в другие города и зоны"
+L["Both sides' portals, on the zone map each stands in. Click one to pin it on your map."] = "Порталы обеих сторон, на карте зоны, где стоит каждый. Нажмите на портал, чтобы отметить его на своей карте."
 
 -- Core/Names.lua
 L["%s: Graveyard"] = "%s: Кладбище"
@@ -1088,6 +1091,7 @@ L["Suggested level %d"] = "Рекомендуемый уровень: %d"
 L["Quest level %d"] = "Уровень задания: %d"
 L["%s only"] = "Только: %s"
 L["No level requirement"] = "Нет требований к уровню"
+L["Weekly"] = "Еженедельно"
 L["Shareable"] = "Можно поделиться"
 L["Not shareable"] = "Нельзя поделиться"
 L["Step %d of %d in a chain that starts with %s"] = "Шаг %d из %d в цепочке, которая начинается с %s"
@@ -1577,6 +1581,7 @@ L["%s located at (%.1f, %.1f) in %s"] = "%s находится в (%.1f, %.1f), 
 L["Shift-click to post its location in chat"] = "Shift+щелчок — отправить местоположение в чат"
 
 -- UI/WorldMapMarkers.lua
+L["Portal to %s"] = "Портал: %s"
 L["Questline step %d of %d, leads to %s (%s)"] = "Шаг %d из %d цепочки, ведёт к %s (%s)"
 L["Quest giver"] = "Квестодатель"
 L["Click to open it in NeedRoll"] = "Нажмите, чтобы открыть в NeedRoll"

@@ -64,6 +64,9 @@ L["Each book's spot as a map pin, whether you hold it or handed it in, and the r
 L["Books on the world map"] = "Libri sulla mappa del mondo"
 L["Marks the library books you haven't found yet"] = "Segna i libri della biblioteca che non hai ancora trovato"
 L["Only books you haven't handed in and don't hold in your bags or bank. Click one to open the Library."] = "Solo i libri che non hai consegnato e non hai nelle borse o in banca. Clicca su uno per aprire la Biblioteca."
+L["Portals on the world map"] = "Portali sulla mappa del mondo"
+L["Marks the portals to other cities and zones"] = "Segna i portali verso altre città e zone"
+L["Both sides' portals, on the zone map each stands in. Click one to pin it on your map."] = "I portali di entrambe le fazioni, sulla mappa della zona in cui si trova ciascuno. Clicca su uno per segnarlo sulla tua mappa."
 
 -- Core/Names.lua
 L["%s: Graveyard"] = "%s: Cimitero"
@@ -1088,6 +1091,7 @@ L["Suggested level %d"] = "Livello consigliato %d"
 L["Quest level %d"] = "Livello missione %d"
 L["%s only"] = "Solo %s"
 L["No level requirement"] = "Nessun requisito di livello"
+L["Weekly"] = "Settimanale"
 L["Shareable"] = "Condivisibile"
 L["Not shareable"] = "Non condivisibile"
 L["Step %d of %d in a chain that starts with %s"] = "Passo %d di %d di una catena che inizia con %s"
@@ -1577,6 +1581,7 @@ L["%s located at (%.1f, %.1f) in %s"] = "%s si trova a (%.1f, %.1f) in %s"
 L["Shift-click to post its location in chat"] = "Maiusc-clic per pubblicare la sua posizione in chat"
 
 -- UI/WorldMapMarkers.lua
+L["Portal to %s"] = "Portale per %s"
 L["Questline step %d of %d, leads to %s (%s)"] = "Passo %d di %d della serie, porta a %s (%s)"
 L["Quest giver"] = "Datore di missioni"
 L["Click to open it in NeedRoll"] = "Clicca per aprirlo in NeedRoll"
