@@ -577,6 +577,7 @@ L["Durgen Dirgehammer"] = true
 L["Nanaya"] = true
 L["Thunderhoof"] = true
 L["Venomridge"] = true
+L["Cinder"] = true
 L["Bolt"] = true
 L["Direhorn Matriarch"] = true
 L["Snowtalon"] = true
