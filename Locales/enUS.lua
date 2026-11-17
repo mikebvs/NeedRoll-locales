@@ -1117,6 +1117,7 @@ L["Suggested level %d"] = true
 L["Quest level %d"] = true
 L["%s only"] = true
 L["No level requirement"] = true
+L["Weekly"] = true
 L["Shareable"] = true
 L["Not shareable"] = true
 L["%s from %s"] = true
