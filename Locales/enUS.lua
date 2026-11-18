@@ -1184,6 +1184,11 @@ L["%s level %d"] = true
 L["Costs %s"] = true
 L["Poisons  %d / %d"] = true
 
+-- UI/ProfessionBar.lua
+L["Skill %d/%d"] = true
+L["Not learned"] = true
+L["%d recipes"] = true
+
 -- UI/ProfessionOverview.lua
 L["Apprentice"] = true
 L["Journeyman"] = true
@@ -1212,7 +1217,6 @@ L["%s give skill now"] = true
 L["Beasts level %d–%d give skill now"] = true
 L["What each profession builds at a campsite, yours first"] = true
 L["Gathering profession"] = true
-L["Not learned"] = true
 L["the only trainer"] = true
 L["+%d more trainers"] = true
 L["No %s trainer"] = true
@@ -1299,8 +1303,6 @@ L["From trainer"] = true
 L["Learnable"] = true
 L["Hide grey"] = true
 L["Have materials"] = true
-L["Materials in bags and bank"] = true
-L["Materials in bags"] = true
 L["Cloak"] = true
 L["Bracer"] = true
 L["Gloves"] = true
@@ -1330,13 +1332,11 @@ L["Base"] = true
 L["%d pieces"] = true
 L["Clear the skill range"] = true
 L["Required skill %s to %s"] = true
-L["Skill %d+"] = true
-L["Skill up to %d"] = true
 L["Any buff"] = true
 L["Buff"] = true
-L["%s · %s"] = true
-L["%d recipes"] = true
-L["%s · %d of %d recipes"] = true
+L["Type"] = true
+L["Slot"] = true
+L["Show"] = true
 
 -- UI/SavedLists.lua
 L["New list"] = true
@@ -1566,7 +1566,6 @@ L["Everything here drops in a dungeon or raid."] = true
 L["%d to get"] = true
 L["%d place"] = true
 L["%d places"] = true
-L["Slot"] = true
 L["Sort by slot"] = true
 L["Item"] = true
 L["Sort by item"] = true
