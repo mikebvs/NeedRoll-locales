@@ -19,6 +19,9 @@ L["On, the dungeon map shows quest markers, kill and loot icons, drop areas and 
 L["Quest givers on the world map"] = true
 L["Marks where to pick up dungeon and raid quests you can take"] = true
 L["A quest \"!\" where you can pick one up now; a questline \"!\" where the steps one needs first start. Click to open it in NeedRoll."] = true
+L["Open in NeedRoll in the quest log"] = true
+L["The quest chain note and Open in NeedRoll button in a quest's details"] = true
+L["A chain quest names its dungeon beside the Back button, with a button to open it in NeedRoll."] = true
 L["PvP"] = true
 L["Honor and battleground rewards"] = true
 L["Factions"] = true
@@ -543,6 +546,7 @@ L["Blackmaw Behemoth"] = true
 L["Elder Shaman Bloodmane"] = true
 L["Unbound Spirit"] = true
 L["Varrox Bleakhoof"] = true
+L["Mopes"] = true
 L["Apothecary Durelle"] = true
 L["Gor'mak"] = true
 L["Aza'bek"] = true
