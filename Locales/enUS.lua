@@ -793,6 +793,11 @@ L["any pet learns them at a pet trainer"] = true
 L["%s and %s"] = true
 L["item %d"] = true
 
+-- UI/LevelUp.lua
+L["Earlier levels (%d)"] = true
+L["Nothing new to train"] = true
+L["Skills to train"] = true
+
 -- UI/LibraryBooks.lua
 L["All books"] = true
 L["Still to find"] = true
