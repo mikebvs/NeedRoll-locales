@@ -726,6 +726,8 @@ L["Click again to delete"] = true
 
 -- UI/DungeonQuestlines.lua
 L["Inside %s"] = true
+L["Turn in %s to %s"] = true
+L["Turn in %s"] = true
 L["Finish %s, then hand it in to %s"] = true
 L["Finish %s"] = true
 L["Pick up %s from %s"] = true
@@ -1044,6 +1046,7 @@ L["Minimap button hidden. Type /nr minimap to show it again."] = true
 L["Minimap button shown."] = true
 
 -- UI/Overview.lua
+L["Ready to turn in"] = true
 L["Accepted"] = true
 L["Prior Step"] = true
 L["Incomplete"] = true
@@ -1271,6 +1274,8 @@ L["Open in NeedRoll"] = true
 -- UI/Questlines.lua
 L["%s to %s"] = true
 L["%s path"] = true
+L["Ready to turn in: %s"] = true
+L["Accepted: %s"] = true
 L["After %s"] = true
 L["%s (Rank %d)"] = true
 L["Teaches"] = true
