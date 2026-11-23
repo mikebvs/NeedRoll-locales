@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-10, 2026-11-11, 2026-11-16, 2026-11-17, 2026-11-19); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-10, 2026-11-11, 2026-11-16, 2026-11-17, 2026-11-19, 2026-11-23); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("koKR")
 if not L then return end
@@ -153,6 +153,7 @@ L["Honor Ranks"] = "명예 계급"
 L["Any rank"] = "모든 계급"
 L["Any standing"] = "모든 평판 단계"
 L["New in Forever"] = "Forever 신규"
+L["Premier"] = "프리미어"
 L["Private"] = "이등병"
 L["Corporal"] = "상병"
 L["Sergeant"] = "병장"
@@ -239,6 +240,7 @@ L["Rare"] = "희귀"
 L["Zone-wide"] = "지역 전체"
 L["Requirement unknown"] = "요구 조건 알 수 없음"
 L["Tribute run chest"] = "공물 공략 상자"
+L["Honor and marks"] = "명예와 증표"
 L["Armorsmith"] = "방어구제작자"
 L["Weaponsmith"] = "무기제작자"
 L["Axesmith"] = "도끼제작자"
@@ -869,6 +871,8 @@ L["Quest: %s"] = "퀘스트: %s"
 L["Found in"] = "획득처"
 L["Crafted: %s"] = "제작: %s"
 L["Inside %s"] = "%s 내부"
+L["Turn in %s to %s"] = "%s 완료 보고 (%s)"
+L["Turn in %s"] = "%s 완료 보고"
 L["Finish %s, then hand it in to %s"] = "%s 완료 후 %s에게 반납"
 L["Finish %s"] = "%s 완료"
 L["Pick up %s from %s"] = "%s 수락 (%s)"
@@ -1022,6 +1026,7 @@ L["Right-click: Open NeedRoll Settings"] = "오른쪽 클릭: NeedRoll 설정 �
 
 -- UI/Overview.lua
 L["Completed"] = "완료함"
+L["Ready to turn in"] = "완료 보고 가능"
 L["Accepted"] = "수락함"
 L["Prior Step"] = "이전 단계"
 L["Incomplete"] = "미완료"
@@ -1059,8 +1064,13 @@ L["Armory"] = "무기고"
 L["Blackrock Stadium"] = "검은바위 경기장"
 L["Cathedral"] = "대성당"
 L["Dalaran Sewers"] = "달라란 하수도"
+L["Depths of Forbidden Magic"] = "금지된 마법의 심층"
+L["Depths of the Burrow"] = "굴의 심층"
+L["Depths of the Elders"] = "장로의 심층"
+L["Depths of the Fallen Grove"] = "쓰러진 숲의 심층"
 L["Dragonspire Hall"] = "용첨탑 전당"
 L["Excavation Site"] = "발굴 현장"
+L["Festering Grotto"] = "부패한 동굴"
 L["Graveyard"] = "묘지"
 L["Hall of Binding"] = "속박의 전당"
 L["Library"] = "도서관"
@@ -1263,6 +1273,8 @@ L["%d recipes"] = "제조법 %d개"
 -- UI/Questlines.lua
 L["%s to %s"] = "%s부터 %s까지"
 L["%s path"] = "%s 경로"
+L["Ready to turn in: %s"] = "완료 보고 가능: %s"
+L["Accepted: %s"] = "수락함: %s"
 L["After %s"] = "%s 이후"
 L["%s (Rank %d)"] = "%s (%d레벨)"
 L["Teaches"] = "가르침"
@@ -1598,3 +1610,8 @@ L["On: only quests you haven't done and books you haven't found"] = "켜짐: 완
 L["NeedRoll map markers"] = "NeedRoll 지도 표시"
 L["Dungeon and raid quests within %d levels of yours"] = "내 레벨 기준 %d레벨 이내의 던전 및 공격대 퀘스트"
 L["Click to change"] = "클릭하여 변경"
+
+-- UI/LevelUp.lua
+L["Earlier levels (%d)"] = "이전 레벨 (%d)"
+L["Nothing new to train"] = "새로 배울 것 없음"
+L["Skills to train"] = "배울 기술"

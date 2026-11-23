@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-10, 2026-11-11, 2026-11-16, 2026-11-17, 2026-11-19); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-10, 2026-11-11, 2026-11-16, 2026-11-17, 2026-11-19, 2026-11-23); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("zhCN")
 if not L then return end
@@ -153,6 +153,7 @@ L["Honor Ranks"] = "荣誉军衔"
 L["Any rank"] = "任意军衔"
 L["Any standing"] = "任意声望"
 L["New in Forever"] = "Forever新增"
+L["Premier"] = "精英"
 L["Private"] = "列兵"
 L["Corporal"] = "下士"
 L["Sergeant"] = "中士"
@@ -239,6 +240,7 @@ L["Rare"] = "稀有"
 L["Zone-wide"] = "全区域"
 L["Requirement unknown"] = "需求未知"
 L["Tribute run chest"] = "贡品宝箱"
+L["Honor and marks"] = "荣誉和印记"
 L["Armorsmith"] = "护甲锻造师"
 L["Weaponsmith"] = "武器锻造师"
 L["Axesmith"] = "铸斧大师"
@@ -869,6 +871,8 @@ L["Quest: %s"] = "任务：%s"
 L["Found in"] = "发现于"
 L["Crafted: %s"] = "制造：%s"
 L["Inside %s"] = "在%s内"
+L["Turn in %s to %s"] = "将%s交给%s"
+L["Turn in %s"] = "交付%s"
 L["Finish %s, then hand it in to %s"] = "完成%s，然后交给%s"
 L["Finish %s"] = "完成%s"
 L["Pick up %s from %s"] = "接取%s（%s）"
@@ -1022,6 +1026,7 @@ L["Right-click: Open NeedRoll Settings"] = "右键点击：打开 NeedRoll 设�
 
 -- UI/Overview.lua
 L["Completed"] = "已完成"
+L["Ready to turn in"] = "可以交付"
 L["Accepted"] = "已接受"
 L["Prior Step"] = "前置步骤"
 L["Incomplete"] = "未完成"
@@ -1059,8 +1064,13 @@ L["Armory"] = "军械库"
 L["Blackrock Stadium"] = "黑石竞技场"
 L["Cathedral"] = "大教堂"
 L["Dalaran Sewers"] = "达拉然下水道"
+L["Depths of Forbidden Magic"] = "被禁魔法深处"
+L["Depths of the Burrow"] = "兽穴深处"
+L["Depths of the Elders"] = "长者深处"
+L["Depths of the Fallen Grove"] = "陷落林地深处"
 L["Dragonspire Hall"] = "龙塔大厅"
 L["Excavation Site"] = "挖掘场"
+L["Festering Grotto"] = "腐烂洞穴"
 L["Graveyard"] = "墓地"
 L["Hall of Binding"] = "禁锢之厅"
 L["Library"] = "图书馆"
@@ -1263,6 +1273,8 @@ L["%d recipes"] = "%d个配方"
 -- UI/Questlines.lua
 L["%s to %s"] = "%s至%s"
 L["%s path"] = "%s路线"
+L["Ready to turn in: %s"] = "可以交付：%s"
+L["Accepted: %s"] = "已接受：%s"
 L["After %s"] = "%s之后"
 L["%s (Rank %d)"] = "%s（等级 %d）"
 L["Teaches"] = "教授"
@@ -1598,3 +1610,8 @@ L["On: only quests you haven't done and books you haven't found"] = "开启：�
 L["NeedRoll map markers"] = "NeedRoll 地图标记"
 L["Dungeon and raid quests within %d levels of yours"] = "与你等级相距%d级以内的地下城和团队副本任务"
 L["Click to change"] = "点击更改"
+
+-- UI/LevelUp.lua
+L["Earlier levels (%d)"] = "之前的等级（%d）"
+L["Nothing new to train"] = "没有新技能可学"
+L["Skills to train"] = "可学技能"

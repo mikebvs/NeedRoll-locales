@@ -4,7 +4,7 @@
 -- the English text (as listed in enUS.lua) on the left:
 --     L["Shopping List"] = "..."
 -- A phrase left out shows in English.
--- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-10, 2026-11-11, 2026-11-16, 2026-11-17, 2026-11-19); corrections are welcome.
+-- First drafts written by machine (2026-10-14, 2026-10-19, 2026-10-22, 2026-11-04, 2026-11-06, 2026-11-07, 2026-11-08, 2026-11-10, 2026-11-11, 2026-11-16, 2026-11-17, 2026-11-19, 2026-11-23); corrections are welcome.
 local _, ns = ...
 local L = ns.Phrases("ruRU")
 if not L then return end
@@ -153,6 +153,7 @@ L["Honor Ranks"] = "Звания чести"
 L["Any rank"] = "Любое звание"
 L["Any standing"] = "Любое отношение"
 L["New in Forever"] = "Новое в Forever"
+L["Premier"] = "Премьер"
 L["Private"] = "Рядовой"
 L["Corporal"] = "Капрал"
 L["Sergeant"] = "Сержант"
@@ -239,6 +240,7 @@ L["Rare"] = "Редкий"
 L["Zone-wide"] = "По всей зоне"
 L["Requirement unknown"] = "Требование неизвестно"
 L["Tribute run chest"] = "Сундук за дань"
+L["Honor and marks"] = "Честь и знаки"
 L["Armorsmith"] = "Бронник"
 L["Weaponsmith"] = "Оружейник"
 L["Axesmith"] = "Мастер топоров"
@@ -869,6 +871,8 @@ L["Quest: %s"] = "Задание: %s"
 L["Found in"] = "Можно найти в"
 L["Crafted: %s"] = "Изготовление: %s"
 L["Inside %s"] = "Внутри: %s"
+L["Turn in %s to %s"] = "Сдайте %s: %s"
+L["Turn in %s"] = "Сдайте %s"
 L["Finish %s, then hand it in to %s"] = "Выполните %s и сдайте: %s"
 L["Finish %s"] = "Выполните %s"
 L["Pick up %s from %s"] = "Возьмите %s у: %s"
@@ -1022,6 +1026,7 @@ L["Right-click: Open NeedRoll Settings"] = "Правый клик: открыт�
 
 -- UI/Overview.lua
 L["Completed"] = "Выполнено"
+L["Ready to turn in"] = "Можно сдать"
 L["Accepted"] = "Принято"
 L["Prior Step"] = "Предыдущий шаг"
 L["Incomplete"] = "Не выполнено"
@@ -1059,8 +1064,13 @@ L["Armory"] = "Оружейная"
 L["Blackrock Stadium"] = "Стадион Черной горы"
 L["Cathedral"] = "Собор"
 L["Dalaran Sewers"] = "Стоки Даларана"
+L["Depths of Forbidden Magic"] = "Глубины Запретной магии"
+L["Depths of the Burrow"] = "Глубины Норы"
+L["Depths of the Elders"] = "Глубины Старейшин"
+L["Depths of the Fallen Grove"] = "Глубины Павшей рощи"
 L["Dragonspire Hall"] = "Зал Драконьего шпиля"
 L["Excavation Site"] = "Место раскопок"
+L["Festering Grotto"] = "Гнойный грот"
 L["Graveyard"] = "Кладбище"
 L["Hall of Binding"] = "Чертог Заточения"
 L["Library"] = "Библиотека"
@@ -1263,6 +1273,8 @@ L["%d recipes"] = "Рецептов: %d"
 -- UI/Questlines.lua
 L["%s to %s"] = "От %s до %s"
 L["%s path"] = "Путь: %s"
+L["Ready to turn in: %s"] = "Можно сдать: %s"
+L["Accepted: %s"] = "Принято: %s"
 L["After %s"] = "После %s"
 L["%s (Rank %d)"] = "%s (уровень %d)"
 L["Teaches"] = "Обучает"
@@ -1598,3 +1610,8 @@ L["On: only quests you haven't done and books you haven't found"] = "Вкл.: т
 L["NeedRoll map markers"] = "Метки NeedRoll на карте"
 L["Dungeon and raid quests within %d levels of yours"] = "Задания подземелий и рейдов в пределах %d ур. от вашего"
 L["Click to change"] = "Нажмите, чтобы изменить"
+
+-- UI/LevelUp.lua
+L["Earlier levels (%d)"] = "Предыдущие уровни (%d)"
+L["Nothing new to train"] = "Нечего изучать"
+L["Skills to train"] = "Навыки для изучения"
